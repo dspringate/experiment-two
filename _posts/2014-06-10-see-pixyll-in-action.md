@@ -1,12 +1,13 @@
 ---
 title: Pixyll in Action
-date: 2014-06-10 12:31:19 Z
+date: 2014-06-10 12:31:00 Z
 categories:
 - jekyll
 - pixyll
-layout: post
 summary: See what the different elements looks like. Your markdown has never looked
   better. I promise.
+image: "/uploads/image-1-402719.jpg"
+layout: post
 ---
 
 There is a significant amount of subtle, yet precisely calibrated, styling to ensure
