@@ -14,7 +14,7 @@ description: A simple, beautiful theme for Jekyll that emphasizes content rather
   aesthetic fluff.
 baseurl: ''
 url: http://pixyll.com
-date_format: "%b %-d, %Y"
+date_format: "%d %m, %y"
 google_verification: 
 google_analytics: 
 google_tag_manager: 
