@@ -11,15 +11,13 @@ layout: default
         <div class="grid__item large--one-third post py3">
           <img src="{{ post.image }}" alt="">
          <h1 class="post-title">
-          <a href="{{ post.link }}" target="_blank" class="post-link">{{ post.title }}</a>
+          <a href="{{ post.store-link }}" target="_blank" class="post-link">{{ post.title }}</a>
           <span class="post-meta">{{ post.date | date: site.date_format }}</span>
         </h1>
           
         <p class="post-summary">
-          {% if post.summary %}
-            {{ post.summary }}
-          {% else %}
-            {{ post.excerpt }}
+          {% if post.credit %}
+            <a href="{{ post.credit-link }}" target="_blank" class="post-link">{{ post.credit }}</a>
           {% endif %}
         </p>
         </div>
