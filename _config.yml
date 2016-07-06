@@ -1,5 +1,5 @@
 ---
-title: Pixyll
+title: shopify.gallery
 timezone: UTC
 collections:
   posts:
@@ -8,12 +8,12 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: your_email@example.com
-author: John Otander
+email: hello@shopify.gallery
+author: Hatch Inc.
 description: A simple, beautiful theme for Jekyll that emphasizes content rather than
   aesthetic fluff.
 baseurl: ''
-url: http://pixyll.com
+url: http://shopify.gallery
 date_format: "%d %m, %y"
 google_verification: 
 google_analytics: 
