@@ -129,7 +129,7 @@ p,
 dl,
 ol,
 ul {
-  font-size: 1rem;
+  font-size: 16px;
   margin-top: 0;
   margin-bottom: 1rem; }
 
@@ -161,32 +161,32 @@ blockquote {
 
 blockquote,
 blockquote p {
-  font-size: 1.25rem;
+  font-size: 16px;
   font-style: italic; }
 
 h1,
 .h1 {
-  font-size: 2.998rem; }
+  font-size: 20px; }
 
 h2,
 .h2 {
-  font-size: 1.5rem; }
+  font-size: 18px; }
 
 h3,
 .h3 {
-  font-size: 1.25rem; }
+  font-size: 16px; }
 
 h4,
 .h4 {
-  font-size: 1rem; }
+  font-size: 16px; }
 
 h5,
 .h5 {
-  font-size: 0.875rem; }
+  font-size: 14px; }
 
 h6,
 .h6 {
-  font-size: 0.75rem; }
+  font-size: 14px; }
 
 .list-reset {
   list-style: none;
@@ -3351,12 +3351,12 @@ sup {
 
 .site-header a {
   color: #333;
-  font-size: 1.25rem;
+  font-size: 16px;
   font-weight: 300;
   background-image: none; }
 
 .site-header .site-title {
-  font-size: 1.5rem; }
+  font-size: 18px; }
 
 .site-nav {
   margin-top: 1rem; }
@@ -3569,7 +3569,7 @@ blockquote footer {
 
   h1,
   .h1 {
-    font-size: 2.998rem; }
+    font-size: 20px; }
 
   .site-header {
     text-align: left; }
@@ -3578,10 +3578,10 @@ blockquote footer {
     margin-top: 0; }
 
   .site-header a {
-    font-size: 1rem; }
+    font-size: 16px; }
 
   .site-header .site-title {
-    font-size: 1.25rem;
+    font-size: 16px;
     float: left; }
 
   .site-header .site-nav {
