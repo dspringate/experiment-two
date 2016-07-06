@@ -1,12 +1,13 @@
 ---
 title: So, What is Jekyll?
-date: 2014-06-09 12:32:18 Z
+date: 2014-06-09 12:32:00 Z
 categories:
 - jekyll
 - pixyll
-layout: post
 summary: Transform your plain text into static websites and blogs. Simple, static,
   and blog-aware.
+image: "/uploads/image-1-5f34bb.jpg"
+layout: post
 ---
 
 Jekyll is a tool for transforming your plain text into static websites and 
