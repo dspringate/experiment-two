@@ -4,9 +4,10 @@ date: 2014-06-08 11:21:00 Z
 categories:
 - jekyll
 - pixyll
-summary: 'Credits: Studieau'
 image: "/uploads/image-1-fdd885.jpg"
-link: http://www.hatchinc.co
+store-link: http://www.hatchinc.co
+credit: 'Credits: Studieau'
+credit-link: http://studieau.co
 layout: post
 ---
 
