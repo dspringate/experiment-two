@@ -6,7 +6,7 @@ layout: default
 
 <div class="home">
   {% if posts_count > 0 %}
-    <div class="grid posts">
+    <div class="grid-uniform posts">
       {% for post in paginator.posts %}
         <div class="grid__item one-third post py3">
           <img src="{{ post.image }}" alt="">
