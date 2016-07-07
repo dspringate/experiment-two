@@ -8,6 +8,11 @@ image: "/uploads/image-1-fdd885.jpg"
 store-link: http://www.hatchinc.co
 credit: 'Credits: Studieau'
 credit-link: http://studieau.co
+post:
+  image: "/uploads/image-1-b4c0c5.jpg"
+  store-link: http://www.hatchinc.co
+  credit: 'Credits: Studieau'
+  credit-link: http://studieau.co
 layout: post
 ---
 
