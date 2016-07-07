@@ -7,7 +7,16 @@
     <atom:link href="http://shopify.gallery/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Announcing Version 2.0</title>
+        <title>Herbivore Botanicals</title>
+        <description>&lt;p&gt;Test content&lt;/p&gt;
+</description>
+        <pubDate>Thu, 07 Jul 2016 10:03:00 +0000</pubDate>
+        <link>http://shopify.gallery/2016/07/07/test-border-post/</link>
+        <guid isPermaLink="true">http://shopify.gallery/2016/07/07/test-border-post/</guid>
+      </item>
+    
+      <item>
+        <title>Byron Bay Skincare</title>
         <description>&lt;p&gt;In an effort to make Pixyll easier to customize and more aesthetically pleasing, we’ve release version &lt;code class=&quot;highlighter-rouge&quot;&gt;2.0&lt;/code&gt;.&lt;/p&gt;
 
 &lt;p&gt;Pixyll now features:&lt;/p&gt;
@@ -51,7 +60,7 @@
       </item>
     
       <item>
-        <title>Pixyll in Action</title>
+        <title>Mohawk General Store</title>
         <description>&lt;p&gt;There is a significant amount of subtle, yet precisely calibrated, styling to ensure
 that your content is emphasized while still looking aesthetically pleasing.&lt;/p&gt;
 
