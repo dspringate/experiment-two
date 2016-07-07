@@ -9,9 +9,6 @@
   padding: 40px;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
-  {% unless post.credit %}
-    padding-bottom: 60px;
-  {% endunless %}
 }
 
 .posts {
