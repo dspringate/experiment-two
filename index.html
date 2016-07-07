@@ -7,11 +7,9 @@ layout: default
 <div class="home">
   {% if posts_count > 0 %}
     <div class="grid-uniform posts">
-            <div class="{% if thecycle == 'odd' %} no-border-odd {% else %} no-border-even{% endif %}">
-
       {% for post in paginator.posts %}
-      {% capture thecycle %}{% cycle 'odd', 'even' %}{% endcapture %}
-        <div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post">
+      {% assign mod = forloop.index | modulo: 2 %}
+        <div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post {% if mod == 0 %} no-border-even {% else %} no-border-odd{% endif %}">
           <a href="{{ post.store-link }}" target="_blank"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
           <h1 class="post-title">
             <a href="{{ post.store-link }}" target="_blank" class="post-link">{{ post.title }}</a>
@@ -25,7 +23,6 @@ layout: default
           </p>
         </div>
       {% endfor %}
-      </div>
     </div>
 
     {% include pagination.html %}
