@@ -3534,6 +3534,8 @@ blockquote footer {
   padding: 40px;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee; }
+  .posts .post:nth-last-child(-n+3) {
+    border-bottom: 0; }
 
 /*.posts .post:last-child {
   border-bottom: none;
