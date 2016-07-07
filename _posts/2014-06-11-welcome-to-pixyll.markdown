@@ -4,9 +4,10 @@ date: 2014-06-11 15:31:00 Z
 categories:
 - jekyll
 - pixyll
-summary: Pixyll is a simple, beautiful theme for Jekyll that emphasizes content rather
-  than aesthetic fluff.
 image: "/uploads/image-1.jpg"
+site-link: http://www.hatchinc.co
+credit: Studieau
+credit-link: http://studieau.co
 layout: post
 ---
 
