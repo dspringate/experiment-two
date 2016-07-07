@@ -11,7 +11,7 @@
     {% endif %}
     <!-- <a class="fa fa-rss" href="{{ "/feed.xml" | prepend: site.baseurl }}"></a> -->
     {% if site.twitter_username %}
-      <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}"></a>
+      <a class="fa fa-twitter" href="https://twitter.com/{{ site.twitter_username }}" target="_blank"></a>
     {% endif %}
     {% if site.skype_username %}
       <a class="fa fa-skype" href="skype:{{ site.skype_username }}?userinfo"></a>
@@ -34,7 +34,7 @@
     {% if site.medium_id %}
       <a class="fa fa-medium" href="https://medium.com/@{{ site.medium_id }}"></a>
     {% endif %}
-    <a class="fa fa-shopify" href="https://shopify.com/?ref=hatch-inc">Shopify</a>
+    <a class="fa fa-shopify" href="https://shopify.com/?ref=hatch-inc" target="_blank">Shopify</a>
   </div>
   <div class="right">
     {% if site.bitcoin_url %}
