@@ -3348,6 +3348,7 @@ sup {
 .site-header {
   position: fixed;
   width: 100%;
+  background-color: #fff;
   padding-top: 0.5rem;
   padding-bottom: 1rem; }
 
@@ -3387,6 +3388,9 @@ sup {
 
 .site-header .site-nav {
   text-align: center; }
+
+#header-intro {
+  margin-top: 100px; }
 
 /*
   Table styles copied from Bootstrap

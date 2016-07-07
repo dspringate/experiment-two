@@ -1,6 +1,7 @@
 .site-header {
   position: fixed;
   width: 100%;
+  background-color: #fff;
   padding-top: $space-1;
   padding-bottom: $space-2;
 }
@@ -49,4 +50,8 @@
 
 .site-header .site-nav {
   text-align: center;
+}
+
+#header-intro {
+  margin-top: 100px;
 }
