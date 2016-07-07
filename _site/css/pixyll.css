@@ -1130,7 +1130,7 @@ body {
   .grid-uniform .small--four-twelfths:nth-child(3n+1),
   .grid-uniform .small--six-twelfths:nth-child(2n+1) {
     clear: both; } }
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 641px) and (max-width: 768px) {
   /** Whole */
   .mediumSmall--one-whole {
     width: 100%; }
@@ -2305,7 +2305,7 @@ body {
 .push--eleven-twelfths {
   left: 91.666%; }
 
-@media only screen and (min-width: 481px) and (max-width: 768px) {
+@media only screen and (min-width: 641px) and (max-width: 768px) {
   /* Whole */
   .push--mediumSmall--one-whole {
     left: 100%; }
