@@ -3540,6 +3540,9 @@ blockquote footer {
 .posts .odd:nth-last-child(-n+2) {
   border-bottom: 0; }
 
+.filler {
+  margin-bottom: 20px; }
+
 /*.posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;

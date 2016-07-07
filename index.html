@@ -18,6 +18,8 @@ layout: default
           
           {% if post.credit %}
             <p>Credit: <a href="{{ post.credit-link }}" target="_blank" class="post-link">{{ post.credit }}</a></p>
+          {% else %}
+            <div class="filler"></div>
           {% endif %}
           
         </div>
