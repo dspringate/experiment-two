@@ -27,6 +27,14 @@
 
 .filler {
   margin-bottom: 54px;
+
+  @include at-query($max, $preLarge) {
+    margin-bottom: 52px;
+  }
+
+  @include at-query($max, $small) {
+    margin-bottom: 0;
+  }
 }
 
 /*.posts .post:last-child {
