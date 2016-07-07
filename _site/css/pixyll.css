@@ -704,7 +704,7 @@ body {
   list-style: none;
   margin: 0;
   padding: 0;
-  margin-left: -40px; }
+  margin-left: 0px; }
   @media screen and (max-width: 480px) {
     .grid, .grid--rev, .grid--full,
     .grid-uniform {
@@ -714,7 +714,7 @@ body {
   box-sizing: border-box;
   float: left;
   min-height: 1px;
-  padding-left: 40px;
+  padding-left: 0px;
   vertical-align: top;
   width: 100%; }
   @media screen and (max-width: 480px) {

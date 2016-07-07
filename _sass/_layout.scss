@@ -36,7 +36,7 @@ $page-width: 780px;
 $page-width-wide: 1200px;
 $page-width-narrow: 415px;
 $gutter: 20px;
-$gridGutter: 40px; // can be a %, but nested grids will have smaller margins because of it
+$gridGutter: 0px; // can be a %, but nested grids will have smaller margins because of it
 
 
 /* --- #Sass Mixins --- */
