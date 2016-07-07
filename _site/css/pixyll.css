@@ -3351,7 +3351,8 @@ sup {
   background-color: #fff;
   padding-top: 0.5rem;
   padding-bottom: 1rem; }
-  .site-header .top-bar--right {
+  .site-header .top-bar--search,
+  .site-header .top-bar--links {
     background-color: #eeeeee; }
 
 .site-header a {
