@@ -11,7 +11,7 @@
   border-right: 1px solid #eeeeee;
 }
 
-.posts .no-border-even {
+.posts.no-border-even {
   .post {
     &:nth-last-child(-n+3) {
       border-bottom: 0;
@@ -19,7 +19,7 @@
   }
 }
 
-.posts .no-border-odd {
+.posts.no-border-odd {
   .post {
     &:nth-last-child(-n+2) {
       border-bottom: 0;
