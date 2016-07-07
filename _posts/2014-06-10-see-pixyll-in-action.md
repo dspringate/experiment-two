@@ -1,5 +1,5 @@
 ---
-title: Pixyll in Action
+title: Mohawk General Store
 date: 2014-06-10 12:31:00 Z
 categories:
 - jekyll
