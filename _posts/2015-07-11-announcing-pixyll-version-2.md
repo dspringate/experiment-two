@@ -4,8 +4,6 @@ date: 2015-07-11 00:00:00 Z
 categories:
 - jekyll
 - pixyll
-summary: Now, Pixyll is lighter weight and more customizable than before.
-image: "/uploads/image-1-3e1cac.jpg"
 layout: post
 ---
 
