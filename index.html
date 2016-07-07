@@ -9,15 +9,15 @@ layout: default
     <div class="grid-uniform posts">
       {% for post in paginator.posts %}
         <div class="grid__item large--one-third post py3">
-          <a href="{{ post.store-link }}" target="_blank"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
+          <a href="{{ site.store-link }}" target="_blank"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
          <h1 class="post-title">
-          <a href="{{ post.store-link }}" target="_blank" class="post-link">{{ post.title }}</a>
+          <a href="{{ site.store-link }}" target="_blank" class="post-link">{{ post.title }}</a>
           <span class="post-meta">{{ post.date | date: site.date_format }}</span>
         </h1>
           
         <p class="post-summary">
           {% if post.credit %}
-            <a href="{{ post.credit-link }}" target="_blank" class="post-link">{{ post.credit }}</a>
+            <a href="{{ site.credit-link }}" target="_blank" class="post-link">{{ site.credit }}</a>
           {% endif %}
         </p>
         </div>
