@@ -12,14 +12,18 @@
 }
 
 .posts .no-border-even {
-  &:nth-last-child(-n+3) {
-    border-bottom: 0;
+  .post {
+    &:nth-last-child(-n+3) {
+      border-bottom: 0;
+    }
   }
 }
 
 .posts .no-border-odd {
-  &:nth-last-child(-n+2) {
-    border-bottom: 0;
+  .post {
+    &:nth-last-child(-n+2) {
+      border-bottom: 0;
+    }
   }
 }
 
