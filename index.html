@@ -15,12 +15,11 @@ layout: default
             <a href="{{ post.store-link }}" target="_blank" class="post-link">{{ post.title }}</a>
             <span class="post-meta">{{ post.date | date: site.date_format }}</span>
           </h1>
-            
-          <p class="post-summary">
-            {% if post.credit %}
-              Credit: <a href="{{ post.credit-link }}" target="_blank" class="post-link">{{ post.credit }}</a>
-            {% endif %}
-          </p>
+          
+          {% if post.credit %}
+            <p>Credit: <a href="{{ post.credit-link }}" target="_blank" class="post-link">{{ post.credit }}</a></p>
+          {% endif %}
+          
         </div>
       {% endfor %}
     </div>
