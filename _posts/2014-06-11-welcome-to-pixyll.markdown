@@ -5,7 +5,7 @@ categories:
 - jekyll
 - pixyll
 image: "/uploads/image-1.jpg"
-site-link: http://www.hatchinc.co
+store-link: http://www.hatchinc.co
 credit: Studieau
 credit-link: http://studieau.co
 layout: post
