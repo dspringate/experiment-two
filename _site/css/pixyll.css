@@ -3602,9 +3602,7 @@ blockquote footer {
 
   .site-header .site-title {
     font-size: 16px;
-    float: right;
-    padding-right: 40px; 
-  }
+    float: left; }
 
   .site-header .site-nav {
     float: right;
