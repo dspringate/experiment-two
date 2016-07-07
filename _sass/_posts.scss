@@ -12,7 +12,7 @@
 }
 
 .posts {
-  .no-border-even  {
+  .even  {
     &:nth-last-child(-n+3) {
       border-bottom: 0;
     }
@@ -20,7 +20,7 @@
 }
 
 .posts {
-  .no-border-odd {
+  .odd {
     &:nth-last-child(-n+2) {
       border-bottom: 0;
     }
