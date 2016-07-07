@@ -8,7 +8,7 @@ layout: default
   {% if posts_count > 0 %}
     <div class="grid-uniform posts">
       {% for post in paginator.posts %}
-        <div class="grid__item large--one-third post py3">
+        <div class="grid__item large--one-third post">
           <a href="{{ post.store-link }}" target="_blank"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
          <h1 class="post-title">
           <a href="{{ post.store-link }}" target="_blank" class="post-link">{{ post.title }}</a>
