@@ -3529,14 +3529,14 @@ blockquote footer {
   margin: 0; }
 
 .posts .post {
-  margin-bottom: 0.75em;
-  border-bottom: thin solid #f3f3f3; }
+  padding: 40px;
+  border-top: 1px solid #eeeeee; }
 
-.posts .post:last-child {
+/*.posts .post:last-child {
   border-bottom: none;
   margin-bottom: .375em;
-  padding-bottom: 0; }
-
+  padding-bottom: 0;
+}*/
 .post-link .post-title {
   margin-top: 0;
   font-weight: 600;
