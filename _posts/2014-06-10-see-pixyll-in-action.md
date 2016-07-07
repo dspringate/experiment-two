@@ -4,9 +4,10 @@ date: 2014-06-10 12:31:00 Z
 categories:
 - jekyll
 - pixyll
-summary: See what the different elements looks like. Your markdown has never looked
-  better. I promise.
 image: "/uploads/image-1-402719.jpg"
+store-link: http://www.hatchinc.co
+credit: Studieau
+credit-link: http://www.studieau.co
 layout: post
 ---
 
