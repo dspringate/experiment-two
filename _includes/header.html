@@ -4,19 +4,21 @@
       <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
     </div>
 
-    <div class="grid__item six-twelfths">
-      Search goes 'ere.
-    </div>
-
-    <!-- <nav class="site-nav">
-      {% include navigation.html %}
-    </nav> -->
-    
-    {% if site.show_social_icons %}
-      <div class="grid__item two-twelfths">
-        {% include social_links.html %}
+    <div class="top-bar--right">
+      <div class="grid__item six-twelfths">
+        Search goes 'ere.
       </div>
-    {% endif %}
+
+      <!-- <nav class="site-nav">
+        {% include navigation.html %}
+      </nav> -->
+      
+      {% if site.show_social_icons %}
+        <div class="grid__item two-twelfths">
+          {% include social_links.html %}
+        </div>
+      {% endif %}
+    </div>
   </div>
 </header>
 
