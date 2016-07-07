@@ -7,15 +7,6 @@
     <atom:link href="http://shopify.gallery/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Test Post</title>
-        <description>&lt;p&gt;Test Post Content&lt;/p&gt;
-</description>
-        <pubDate>Thu, 07 Jul 2016 08:24:00 +0000</pubDate>
-        <link>http://shopify.gallery/2016/07/07/test-post/</link>
-        <guid isPermaLink="true">http://shopify.gallery/2016/07/07/test-post/</guid>
-      </item>
-    
-      <item>
         <title>Announcing Version 2.0</title>
         <description>&lt;p&gt;In an effort to make Pixyll easier to customize and more aesthetically pleasing, we’ve release version &lt;code class=&quot;highlighter-rouge&quot;&gt;2.0&lt;/code&gt;.&lt;/p&gt;
 
