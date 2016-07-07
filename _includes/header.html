@@ -1,11 +1,18 @@
 <header class="site-header px-responsive">
-  <div class="wrap">
-    <div class="measure">
+  <div class="grid wrap">
+    <div class="grid__item one-third">
       <a href="{{ site.url }}" class="site-title">{{ site.title }}</a>
-      <nav class="site-nav">
-        {% include navigation.html %}
-      </nav>
-      <div class="clearfix"></div>
+    </div>
+
+    <div class="grid__item six-twelfths">
+      Search goes 'ere.
+    </div>
+
+    <!-- <nav class="site-nav">
+      {% include navigation.html %}
+    </nav> -->
+
+    <div class="grid__item two-twelfths">
       {% if site.show_social_icons %}
         {% include social_links.html %}
       {% endif %}
