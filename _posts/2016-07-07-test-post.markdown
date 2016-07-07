@@ -1,0 +1,11 @@
+---
+title: Test Post
+date: 2016-07-07 08:24:00 Z
+site:
+  image: "/uploads/image-1-4c9a55.jpg"
+  store-link: http://www.hatchinc.co
+  credit: 'Credit: Studieau'
+  credit-link: http://www.studieau.co
+---
+
+Test Post Content
