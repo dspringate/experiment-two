@@ -6,7 +6,7 @@ categories:
 - pixyll
 image: "/uploads/image-1-ee81d0.jpg"
 store-link: http://www.hatchinc.co
-credit: 'Credit: Studieau'
+credit: Studieau
 credit-link: http://www.studieau.co
 layout: post
 ---
