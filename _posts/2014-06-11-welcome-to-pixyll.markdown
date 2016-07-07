@@ -1,5 +1,5 @@
 ---
-title: Hello, Pixyll. Hello, Pixyll. Hello, Pixyll. Hello, Pixyll. Hello, Pixyll
+title: Faculty Department
 date: 2014-06-11 15:31:00 Z
 categories:
 - jekyll
