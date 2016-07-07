@@ -3349,8 +3349,7 @@ sup {
   position: fixed;
   width: 100%;
   background-color: #fff;
-  padding-top: 0.5rem;
-  padding-bottom: 1rem; }
+  padding: 0; }
   .site-header .top-bar--search,
   .site-header .top-bar--links {
     background-color: #eeeeee; }
