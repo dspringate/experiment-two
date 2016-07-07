@@ -6,7 +6,7 @@ layout: default
 
 <div class="home">
   {% if posts_count > 0 %}
-    <div class="grid-uniform posts{% if posts_count == odd %} no-border-odd {% else %} no-border-even{% endif %}">
+    <div class="grid-uniform posts{% if posts_count == 'odd' %} no-border-odd{% else %} no-border-even{% endif %}">
       {% for post in paginator.posts %}
         <div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post">
           <a href="{{ post.store-link }}" target="_blank"><img src="{{ post.image }}" alt="{{ post.title }}"></a>
