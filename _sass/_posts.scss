@@ -32,7 +32,7 @@
     margin-bottom: 52px;
   }
 
-  @include at-query($max, $small) {
+  @include at-query($max, $preMediumSmall) {
     margin-bottom: 0;
   }
 }
