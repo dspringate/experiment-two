@@ -3545,6 +3545,9 @@ blockquote footer {
   @media screen and (max-width: 1024px) {
     .filler {
       margin-bottom: 52px; } }
+  @media screen and (max-width: 768px) {
+    .filler {
+      margin-bottom: 50px; } }
   @media screen and (max-width: 640px) {
     .filler {
       margin-bottom: 0; } }
