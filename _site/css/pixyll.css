@@ -3346,6 +3346,7 @@ sup {
   top: -0.9ex; }
 
 .site-header {
+  position: fixed;
   padding-top: 0.5rem;
   padding-bottom: 1rem; }
 
