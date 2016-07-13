@@ -10,13 +10,12 @@ collections:
     output: true
 email: hello@shopify.gallery
 author: Hatch Inc.
-description: A simple, beautiful theme for Jekyll that emphasizes content rather than
-  aesthetic fluff.
+description: An ever-growing collection of inspiring e-commerce stores built on Shopify.
 baseurl: ''
 url: http://shopify.gallery
 date_format: "%d-%m-%y"
 google_verification: 
-google_analytics: 
+google_analytics: UA-57545939-5
 google_tag_manager: 
 bing_verification: 
 animated: false
