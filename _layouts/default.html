@@ -35,21 +35,8 @@
   {% include footer.html %}
   <script src="/js/main.js"></script>
 
-  <script>
-  window.store = {
-    {% for post in site.posts %}
-      "{{ post.url | slugify }}": {
-        "title": "{{ post.title | xml_escape }}",
-        "author": "{{ post.author | xml_escape }}",
-        "category": "{{ post.category | xml_escape }}",
-        "url": "{{ post.url | xml_escape }}"
-      }
-    {% endfor %}
-  };
-</script>
-
-<script src="/js/lunr.min.js"></script>
-
-<script src="/js/search.js"></script>
+  <script src="/js/lunr.min.js"></script>
+  
+  <script src="/js/search.js"></script>
 </body>
 </html>
