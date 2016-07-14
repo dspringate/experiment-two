@@ -10,7 +10,7 @@ tags: submit
     {% if site.ajaxify_contact_form %}
       <form class="form-stacked">
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-        <input type="text" name="content" class="field-light" placeholder="{{ site.text.contact.site }}">
+        <input type="text" name="site" class="field-light" placeholder="{{ site.text.contact.site }}">
         <input type="text" name="credit" class="field-light" placeholder="{{ site.text.contact.credit }}">
         <input type="text" name="_gotcha" style="display:none" />
         <button type='submit' class="button button-blue button-big mobile-block">{{ site.text.contact.submit }}</button>
@@ -18,7 +18,7 @@ tags: submit
     {% else %}
       <form action="https://formspree.io/{{ site.email }}" method="POST" class="form-stacked">
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
-        <input type="text" name="content" class="field-light" placeholder="{{ site.text.contact.site }}">
+        <input type="text" name="site" class="field-light" placeholder="{{ site.text.contact.site }}">
         <input type="text" name="credit" class="field-light" placeholder="{{ site.text.contact.credit }}">
         <input type="hidden" name="_next" value="{{ site.baseurl }}/thanks/" />
         <input type="hidden" name="_subject" value="{{ site.text.contact.subject }}" />
