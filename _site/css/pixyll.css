@@ -3361,9 +3361,11 @@ sup {
   font-weight: 300;
   background-image: none; }
 
-.site-header .site-title {
-  font-size: 18px;
+.site-logo {
   text-align: right; }
+
+.site-header .site-title {
+  font-size: 18px; }
 
 .site-nav {
   margin-top: 1rem; }
