@@ -3365,7 +3365,8 @@ sup {
   text-align: right; }
 
 .site-header .site-title {
-  font-size: 18px; }
+  font-size: 18px;
+  float: right; }
 
 .site-nav {
   margin-top: 1rem; }
