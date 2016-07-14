@@ -91,7 +91,7 @@ redcarpet:
   - with_toc_data
 permalink: pretty
 paginate: 12
-paginate_path: 'page:num'
+paginate_path: page:num
 sass:
   compressed: true
 gems:
