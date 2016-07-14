@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for shopify.gallery" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?201607141004" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?201607141008" type="text/css">
 
     <!-- Fonts -->
     
@@ -151,17 +151,48 @@
   <div class="grid">
   <div class="grid_item">
     
-      <form action="https://formspree.io/hello@shopify.gallery" method="POST" class="form-stacked">
-        <input type="text" name="email" class="field-light" placeholder="Email Address">
-        <textarea type="text" name="content" class="field-light" rows="5" placeholder="What would you like to say?"></textarea>
-        <input type="hidden" name="_next" value="/thanks/" />
-        <input type="hidden" name="_subject" value="New submission!" />
+      <form class="form-stacked">
+        <input type="text" name="email" class="field-light" placeholder="Your Email Address">
+        <input type="text" name="content" class="field-light" placeholder="Store URL?">
+        <input type="text" name="credit" class="field-light" placeholder="Who designed & developed this store?">
         <input type="text" name="_gotcha" style="display:none" />
-        <input type="submit" class="button button-blue button-big mobile-block" value="Say Hello">
+        <button type='submit' class="button button-blue button-big mobile-block">Submit store!</button>
       </form>
     
   </div>
 </div>
+
+
+  <script>
+    var contactForm = document.querySelector('form'),
+    inputEmail = contactForm.querySelector('[name="email"]'),
+    textAreaMessage = contactForm.querySelector('[name="content"]'),
+    sendButton = contactForm.querySelector('button');
+
+    sendButton.addEventListener('click', function(event){
+      event.preventDefault();
+
+      sendButton.innerHTML = 'sending..';
+
+      var xhr = new XMLHttpRequest();
+      xhr.open('POST', '//formspree.io/hello@shopify.gallery', true);
+      xhr.setRequestHeader("Accept", "application/json")
+      xhr.setRequestHeader("Content-Type", "application/x-www-form-urlencoded")
+
+      xhr.send(
+        "email=" + inputEmail.value +
+        "&message=" + textAreaMessage.value);
+
+      xhr.onloadend = function (res) {
+        if (res.target.status === 200){
+          sendButton.innerHTML = 'Message sent!';
+        }
+        else {
+          sendButton.innerHTML = 'Error!';
+        }
+      }
+    });
+</script>
 
 
 
