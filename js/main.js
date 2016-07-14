@@ -17,7 +17,7 @@ site.init = function () {
 
 site.smoothScroll = function () {
 	$(document).ready(function() {
-    	$(".learn-more").click( function(event) {
+    	$(".scroll").click( function(event) {
     		event.preventDefault();
     		//calculate destination place
     		var dest = 0;
