@@ -8,7 +8,7 @@ collections:
   uploads:
     title: Uploads
     output: true
-email: hello@shopify.gallery
+email: submit@shopify.gallery
 author: Hatch Inc.
 description: An ever-growing collection of inspiring e-commerce stores built on Shopify.
 baseurl: ''
