@@ -5,7 +5,10 @@
     </div>
 
     <div class="grid__item six-twelfths top-bar--search">
-      Search goes 'ere.
+      <form action="/search.html" method="get">
+        <input type="text" id="search_box" name="query">
+        <input type="submit" value="search">
+      </form>
     </div>
     
     {% if site.show_social_icons %}
