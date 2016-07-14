@@ -16,7 +16,6 @@ site.cacheSelectors = function () {
 };
 
 site.init = function () {
-	FastClick.attach(document.body);
 	site.cacheSelectors();
 	site.smoothScroll();
 };
