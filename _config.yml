@@ -74,7 +74,7 @@ text:
   contact:
     email: Your Email Address
     site: Store URL
-    credit: Who designed & developed this store?
+    credit: Credit (Designer/Developer)
     subject: New submission!
     submit: Submit store!
     ajax:

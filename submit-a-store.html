@@ -7,6 +7,8 @@ tags: submit
 
 <div class="grid">
   <div class="grid_item">
+    <h2>Submit a Shopify store</h2>
+    <p>Seen a Shopify store you like? Or designed and/or developed a store that you're proud of? Submit the URL and a credit below.</p>
     {% if site.ajaxify_contact_form %}
       <form class="form-stacked">
         <input type="text" name="email" class="field-light" placeholder="{{ site.text.contact.email }}">
@@ -26,6 +28,8 @@ tags: submit
         <input type="submit" class="button button-blue button-big mobile-block" value="{{ site.text.contact.submit }}">
       </form>
     {% endif %}
+
+    <p><a href="{{ site.url }}">Return to gallery</a></p>
   </div>
 </div>
 
