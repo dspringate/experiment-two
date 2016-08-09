@@ -3358,7 +3358,7 @@ sup {
   font-weight: 300;
   background-image: none; }
 
-.site-logo {
+.site-logo a {
   text-align: right; }
 
 .site-header .site-title {
@@ -3394,9 +3394,7 @@ sup {
   text-align: center; }
 
 #header-intro {
-  margin-top: 100px; 
-  background-color: #eeeeee;
-}
+  margin-top: 100px; }
 
 /*
   Table styles copied from Bootstrap
