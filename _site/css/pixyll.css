@@ -3351,9 +3351,6 @@ sup {
   background-color: #fff;
   padding: 0;
   z-index: 999; }
-  .site-header .top-bar--search,
-  .site-header .top-bar--links {
-    background-color: #eeeeee; }
 
 .site-header a {
   color: #333;
@@ -3397,7 +3394,9 @@ sup {
   text-align: center; }
 
 #header-intro {
-  margin-top: 100px; }
+  margin-top: 100px; 
+  background-color: #eeeeee;
+}
 
 /*
   Table styles copied from Bootstrap
