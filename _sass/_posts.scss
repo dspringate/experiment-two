@@ -19,7 +19,7 @@
   }
 
   .odd {
-    &:nth-last-child(-n+3) {
+    &:last-child {
       border-bottom: 0;
     }
   }
