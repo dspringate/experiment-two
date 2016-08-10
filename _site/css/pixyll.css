@@ -3588,7 +3588,7 @@ blockquote footer {
   display: block; }
 
 .related-post-title {
-  border-bottom: thin solid #f3f3f3; }
+  border-bottom: thin solid #eeeeee; }
 
 @media screen and (min-width: 32em) {
   html {
