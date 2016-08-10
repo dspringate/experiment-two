@@ -1,9 +1,0 @@
----
-title: Test Post 3
-date: 2016-08-10 15:03:00 Z
-image: "/uploads/image-1-57bc60.jpg"
-store-link: hatchinc.co
-credit: Hatch Inc.
-credit-link: hatchinc.co
----
-
