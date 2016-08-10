@@ -3544,7 +3544,7 @@ blockquote footer {
 
 .posts .even:nth-last-child(-n+3) {
   border-bottom: 0; }
-.posts .odd:nth-last-child {
+.posts .odd:last-child {
   border-bottom: 0; }
 
 .filler {
