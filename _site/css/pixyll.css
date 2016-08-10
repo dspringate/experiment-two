@@ -3542,8 +3542,8 @@ blockquote footer {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee; }
 
-.posts .even:nth-last-child(-n+3) {
-  border-bottom: 0; }
+/*.posts .even:nth-last-child(-n+3) {
+  border-bottom: 0; }*/
 .posts .odd:last-child {
   border-bottom: 0; }
 
@@ -3648,7 +3648,7 @@ blockquote footer {
   font-size: 1rem;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
-  text-align: center; }
+  text-align: right; }
 
 .pagination a, .pagination .disabled {
   -webkit-transition: all 0.2s ease-in-out;
