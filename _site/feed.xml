@@ -7,6 +7,15 @@
     <atom:link href="http://shopify.gallery/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
+        <title>Test Post</title>
+        <description>&lt;p&gt;Hello&lt;/p&gt;
+</description>
+        <pubDate>Wed, 10 Aug 2016 14:28:00 +0000</pubDate>
+        <link>http://shopify.gallery/2016/08/10/test-post/</link>
+        <guid isPermaLink="true">http://shopify.gallery/2016/08/10/test-post/</guid>
+      </item>
+    
+      <item>
         <title>Herbivore Botanicals</title>
         <description>&lt;p&gt;Test content&lt;/p&gt;
 </description>
