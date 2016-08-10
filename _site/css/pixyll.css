@@ -3543,10 +3543,10 @@ blockquote footer {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee; }
 
-.posts .even:nth-last-child(-n+3) {
+/*.posts .even:nth-last-child(-n+3) {
   border-bottom: 0; }
 .posts .odd:nth-last-child(-n+2) {
-  border-bottom: 0; }
+  border-bottom: 0; }*/
 
 .filler {
   margin-bottom: 54px; }
