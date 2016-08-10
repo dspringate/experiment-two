@@ -3542,7 +3542,7 @@ blockquote footer {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee; }
 
-.posts .odd:nth-last-child(-n+2) {
+.posts .odd:last-child {
   border-bottom: 0; }
 
 .filler {
@@ -3646,7 +3646,7 @@ blockquote footer {
   font-size: 1rem;
   font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
   font-weight: 300;
-  text-align: center; }
+  text-align: right; }
 
 .pagination a, .pagination .disabled {
   -webkit-transition: all 0.2s ease-in-out;
