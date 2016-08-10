@@ -7,15 +7,6 @@
     <atom:link href="http://shopify.gallery/feed.xml" rel="self" type="application/rss+xml" />
     
       <item>
-        <title>Test Post 3</title>
-        <description>
-</description>
-        <pubDate>Wed, 10 Aug 2016 15:03:00 +0000</pubDate>
-        <link>http://shopify.gallery/2016/08/10/test-post-3/</link>
-        <guid isPermaLink="true">http://shopify.gallery/2016/08/10/test-post-3/</guid>
-      </item>
-    
-      <item>
         <title>Test Post 2</title>
         <description>&lt;p&gt;Hello&lt;/p&gt;
 </description>
