@@ -3691,16 +3691,6 @@ blockquote footer {
   src: url('{{ "icons.eot" | asset_url }}#iefix') format("embedded-opentype"), url('{{ "icons.woff" | asset_url }}') format("woff"), url('{{ "icons.ttf" | asset_url }}') format("truetype"), url('{{ "icons.svg" | asset_url }}#timber-icons') format("svg");
   font-weight: normal;
   font-style: normal; }
-.visually-hidden, .supports-fontface .icon-fallback-text .fallback-text {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  width: 1px;
-  margin: -1px;
-  padding: 0;
-  border: 0; }
-
 /*============================================================================
   #Icons
 ==============================================================================*/
@@ -3713,6 +3703,16 @@ blockquote footer {
   A generic way to visually hide content while
   remaining accessible to screen readers (h5bp.com)
 ==============================================================================*/
+.supports-fontface .icon-fallback-text .fallback-text {
+  position: absolute;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  width: 1px;
+  margin: -1px;
+  padding: 0;
+  border: 0; }
+
 .icon:before {
   display: none; }
 
