@@ -13,6 +13,18 @@ $socialIconFontStack: 'icons';
 /*============================================================================
   #Icons
 ==============================================================================*/
+.icon-fallback-text .icon {
+  display: none;
+
+  .supports-fontface & {
+    display: inline-block;
+  }
+}
+
+/*============================================================================
+  A generic way to visually hide content while
+  remaining accessible to screen readers (h5bp.com)
+==============================================================================*/
 
 .icon:before {
   display: inline;
