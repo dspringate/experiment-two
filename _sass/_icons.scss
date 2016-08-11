@@ -14,11 +14,6 @@ $socialIconFontStack: 'icons';
   #Icons
 ==============================================================================*/
 
-/*============================================================================
-  A generic way to visually hide content while
-  remaining accessible to screen readers (h5bp.com)
-==============================================================================*/
-
 .icon:before {
   display: inline;
   font-family: $socialIconFontStack;
