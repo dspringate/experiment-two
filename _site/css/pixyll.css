@@ -3491,8 +3491,7 @@ sup {
 .social-icons .icon {
   margin: 0;
   vertical-align: middle;
-  font-size: 26px;
-  line-height: 22px; }
+  font-size: 20px; }
   .social-icons .icon a {
     color: #000; }
     .social-icons .icon a:hover {
@@ -3511,8 +3510,7 @@ sup {
     margin: 0; }
   .site-header .search-btn,
   .site-header .social-icons-right a {
-    border-left: 1px solid #eeeeee;
-    padding: 20px; }
+    border-left: 1px solid #eeeeee; }
 
 .site-header a {
   color: #333;
