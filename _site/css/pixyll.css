@@ -3489,11 +3489,11 @@ sup {
   content: "\79"; }
 
 .social-icons li {
-  margin: 0 10px 10px;
+  margin: 0;
   vertical-align: middle; }
   .social-icons li .icon {
-    font-size: 30px;
-    line-height: 26px; }
+    font-size: 26px;
+    line-height: 22px; }
   .social-icons li a {
     color: #000; }
     .social-icons li a:hover {

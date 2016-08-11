@@ -105,12 +105,12 @@ $socialIconFontStack: 'icons';
 .icon-youtube:before { content: "\79"; }
 
 .social-icons li {
-  margin: 0 10px 10px;
+  margin: 0;
   vertical-align: middle;
 
   .icon {
-    font-size: 30px;
-    line-height: 26px;
+    font-size: 26px;
+    line-height: 22px;
   }
 
   a {
