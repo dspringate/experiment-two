@@ -3510,7 +3510,8 @@ sup {
     margin: 0; }
   .site-header .search-btn,
   .site-header .social-icons-right a {
-    border-left: 1px solid #eeeeee; }
+    border-left: 1px solid #eeeeee;
+    min-height: 65px; }
 
 .site-header a {
   color: #333;
