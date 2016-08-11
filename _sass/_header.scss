@@ -4,6 +4,17 @@
   background-color: #fff;
   padding: 0;
   z-index: 999;
+
+  .search-btn {
+    background-color: transparent;
+    padding: 0;
+    margin: 0;
+  }
+
+  .search-btn,
+  .social-icons-right a {
+    border-left: 1px solid #eeeeee;
+  }
 }
 
 .site-header a {
