@@ -6,6 +6,11 @@
     
     {% if site.show_social_icons %}
       <div class="grid__item small--one-whole mediumSmall--one-half medium--one-half two-thirds top-bar--links">
+        <button class="btn icon-fallback-text">
+          <span class="icon icon-search" aria-hidden="true"></span>
+          <span class="fallback-text">Search</span>
+        </button>
+
         {% include social_links.html %}
       </div>
     {% endif %}
