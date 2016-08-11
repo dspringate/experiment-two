@@ -3522,8 +3522,8 @@ sup {
   text-align: right; }
 
 .site-header .site-title {
-  font-size: 18px;
-  float: right; }
+  font-size: 16px;
+  float: right !important; }
 
 .site-nav {
   margin-top: 1rem; }
