@@ -3490,10 +3490,9 @@ sup {
 
 .social-icons .icon {
   margin: 0;
-  vertical-align: middle; }
-  .social-icons .icon .icon {
-    font-size: 26px;
-    line-height: 22px; }
+  vertical-align: middle;
+  font-size: 26px;
+  line-height: 22px; }
   .social-icons .icon a {
     color: #000; }
     .social-icons .icon a:hover {
