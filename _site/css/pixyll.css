@@ -3488,15 +3488,15 @@ sup {
 .icon-youtube:before {
   content: "\79"; }
 
-.social-icons li {
+.social-icons .icon {
   margin: 0;
   vertical-align: middle; }
-  .social-icons li .icon {
+  .social-icons .icon .icon {
     font-size: 26px;
     line-height: 22px; }
-  .social-icons li a {
+  .social-icons .icon a {
     color: #000; }
-    .social-icons li a:hover {
+    .social-icons .icon a:hover {
       color: #000; }
 
 .site-header {
