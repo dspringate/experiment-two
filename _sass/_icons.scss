@@ -13,31 +13,8 @@ $socialIconFontStack: 'icons';
 /*============================================================================
   #Icons
 ==============================================================================*/
-.icon-fallback-text .icon {
-  display: none;
-
-  .supports-fontface & {
-    display: inline-block;
-  }
-}
-
-/*============================================================================
-  A generic way to visually hide content while
-  remaining accessible to screen readers (h5bp.com)
-==============================================================================*/
-.supports-fontface .icon-fallback-text .fallback-text {
-  position: absolute;
-  overflow: hidden;
-  clip: rect(0 0 0 0);
-  height: 1px; width: 1px;
-  margin: -1px; padding: 0; border: 0;
-}
 
 .icon:before {
-  display: none;
-}
-
-.supports-fontface .icon:before {
   display: inline;
   font-family: $socialIconFontStack;
   text-decoration: none;
