@@ -3556,7 +3556,8 @@ sup {
   text-align: center; }
 
 #header-intro {
-  margin-top: 100px; }
+  margin-top: 100px;
+  background-color: #eee; }
 
 /*
   Table styles copied from Bootstrap
