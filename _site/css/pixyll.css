@@ -3152,7 +3152,7 @@ body {
     - Pull classes, to move grid items back to the left by certain amounts
 ==============================================================================*/
 a {
-  color: #0076df;
+  color: #b2b11b;
   /*background-image: linear-gradient(to top,
     rgba(0,0,0,0) 13%,
     rgba($link-color,.8) 13%,
@@ -3165,7 +3165,7 @@ a:hover,
 a:focus,
 a:active {
   border: 0;
-  color: #000a13;
+  color: #4c4b4b;
   text-decoration: none;
   /*background-image: linear-gradient(to top,
     rgba(0,0,0,0) 13%,
@@ -3195,7 +3195,7 @@ button,
 .anchorjs-link:focus,
 .anchorjs-link:active {
   border: 0;
-  color: #000a13;
+  color: #4c4b4b;
   text-shadow: none;
   background-image: none; }
 
