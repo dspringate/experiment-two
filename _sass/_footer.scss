@@ -22,8 +22,11 @@ footer {
   color: $footer-color;
   font-size: $footer-font-size;
   font-weight: $footer-font-weight;
-  background-color: #eeeeee;
   padding: 0;
+
+  #more-info {
+    background-color: #eeeeee;
+  }
 
   #more-info,
   #footer-bottom-bar {
