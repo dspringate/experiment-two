@@ -3562,7 +3562,7 @@ sup {
   .site-header .search-btn,
   .site-header span.social-wrap {
     border-left: 1px solid #eeeeee;
-    padding: 20px; }
+    padding: 20px 20px 20px 30px; }
 
 .site-header a {
   color: #333;
