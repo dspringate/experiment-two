@@ -18,7 +18,7 @@
 /* Basscss Base Buttons */
 button,
 .button {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
+  font-family: "acumin-pro", "Helvetica", Helvetica Neue, "Arial", sans-serif;
   font-size: inherit;
   font-weight: normal;
   text-decoration: none;
@@ -132,8 +132,8 @@ svg {
 
 /* Basscss Base Typography */
 body {
-  font-family: "Merriweather", "PT Serif", Georgia, "Times New Roman", serif;
-  line-height: 1.5;
+  font-family: "acumin-pro", "Helvetica", Helvetica Neue, "Arial", sans-serif;
+  line-height: 23px;
   font-size: 100%; }
 
 h1,
@@ -142,10 +142,9 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Lato", "Helvetica Neue", Helvetica, sans-serif;
-  font-weight: 900;
-  line-height: 1.25;
-  margin-top: 1em;
+  font-family: "acumin-pro", "Helvetica", Helvetica Neue, "Arial", sans-serif;
+  font-weight: 600;
+  line-height: 32px;
   margin-bottom: .5em; }
 
 p,
