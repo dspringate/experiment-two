@@ -27,8 +27,12 @@
   background-image: none;
 }
 
-.site-logo a {
-  text-align: right;
+.site-logo {
+  padding: 0 40px;
+
+  a {
+    text-align: right;
+  }
 }
 
 .site-header .site-title {
