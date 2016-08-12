@@ -31,5 +31,12 @@ footer {
   #more-info,
   #footer-bottom-bar {
     padding: 0 40px;
+
+    .footer-link, 
+    .site-nav {
+      a {
+        border-bottom: 1px solid #000;
+      }
+    }
   }
 }
