@@ -3548,10 +3548,12 @@ sup {
   padding: 0;
   z-index: 999;
   border-bottom: 1px solid #eeeeee;
-  display: table; }
+  display: table;
+  width: 100%; }
   .site-header .grid__item {
     display: table-cell;
-    vertical-align: middle; }
+    vertical-align: middle;
+    float: none; }
   .site-header .search-btn {
     background-color: transparent;
     padding: 0;
