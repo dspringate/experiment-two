@@ -3554,9 +3554,7 @@ sup {
     .site-header .grid .grid__item, .site-header .grid--rev .grid__item, .site-header .grid--full .grid__item {
       display: table-cell;
       vertical-align: middle;
-      float: none;
-      padding-top: 20px;
-      padding-bottom: 20px; }
+      float: none; }
   .site-header .search-btn {
     background-color: transparent;
     padding: 0;
@@ -3572,7 +3570,7 @@ sup {
   background-image: none; }
 
 .site-logo {
-  padding: 0 40px; }
+  padding: 20px 40px; }
   .site-logo a {
     text-align: right; }
 
