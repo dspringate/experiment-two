@@ -3907,14 +3907,14 @@ a.post-link {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #333333;
+  color: #b2b1b1;
   padding: 0 10px; }
 
 .pagination .disabled {
   opacity: 0.5; }
 
 .pagination a:hover, .pagination a:focus {
-  color: #477dca; }
+  color: #4c4b4b; }
 
 .pagination a:active {
   /*background: #f7f7f7;*/ }
