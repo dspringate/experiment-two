@@ -76,7 +76,7 @@ text:
     site: Store URL
     credit: Credit (Designer/Developer)
     subject: New submission!
-    submit: Submit store!
+    submit: Submit
     ajax:
       sending: sending..
       sent: Message sent!
