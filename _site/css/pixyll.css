@@ -3694,14 +3694,11 @@ footer {
     background-color: #eeeeee; }
     footer #more-info .grid__item {
       padding: 0 40px; }
-  footer #more-info,
-  footer #footer-bottom-bar {
-    padding: 0 40px; }
-    footer #more-info .footer-link a,
-    footer #more-info .site-nav a,
-    footer #footer-bottom-bar .footer-link a,
-    footer #footer-bottom-bar .site-nav a {
-      border-bottom: 1px solid #000; }
+  footer #more-info .footer-link a,
+  footer #more-info .site-nav a,
+  footer #footer-bottom-bar .footer-link a,
+  footer #footer-bottom-bar .site-nav a {
+    border-bottom: 1px solid #000; }
   footer .copyright-text {
     border-left: 1px solid #eeeeee; }
 
