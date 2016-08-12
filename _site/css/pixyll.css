@@ -3596,6 +3596,8 @@ sup {
     padding: 0 40px; }
     #header-intro .grid__item p {
       margin-bottom: 0; }
+      #header-intro .grid__item p a {
+        border-bottom: 1px solid #000; }
 
 /*
   Table styles copied from Bootstrap
