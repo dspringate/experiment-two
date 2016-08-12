@@ -3555,6 +3555,8 @@ sup {
       display: table-cell;
       vertical-align: middle;
       float: none; }
+  .site-header .top-bar--links {
+    padding-bottom: 0; }
   .site-header .search-btn {
     background-color: transparent;
     padding: 0;
