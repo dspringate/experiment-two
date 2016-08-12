@@ -6,6 +6,10 @@
   z-index: 999;
   border-bottom: 1px solid #eeeeee;
 
+  .grid__item {
+    vertical-align: middle;
+  }
+
   .search-btn {
     background-color: transparent;
     padding: 0;
