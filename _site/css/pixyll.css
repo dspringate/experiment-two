@@ -3701,6 +3701,10 @@ footer {
   footer #more-info .grid__item,
   footer #footer-bottom-bar .grid__item {
     padding: 0 40px; }
+  footer .newsletter-form,
+  footer .copyright-text {
+    padding-top: 20px;
+    padding-bottom: 20px; }
   footer .copyright-text {
     border-left: 1px solid #eeeeee; }
     footer .copyright-text p {
