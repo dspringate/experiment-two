@@ -3907,3 +3907,13 @@ a.post-link {
 .button-disabled:focus {
   cursor: not-allowed;
   background-color: #999; }
+
+/* Contents */
+/*
+
+#Submit A Store
+
+*/
+/*============ #Submit A Store ===========*/
+#submit-a-store {
+  margin-top: 65px; }
