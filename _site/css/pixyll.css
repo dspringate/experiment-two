@@ -139,6 +139,18 @@ body {
 
 h1,
 h2,
+input[type=text],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week],
 h3,
 h4,
 h5,
@@ -195,7 +207,18 @@ h1,
   font-size: 20px;
   color: #212121; }
 
-h2,
+h2, input[type=text],
+input[type=datetime],
+input[type=datetime-local],
+input[type=email],
+input[type=month],
+input[type=number],
+input[type=password],
+input[type=search],
+input[type=tel],
+input[type=time],
+input[type=url],
+input[type=week],
 .h2 {
   font-size: 18px; }
 

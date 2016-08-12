@@ -24,6 +24,7 @@ input[type=week] {
   padding: $form-field-padding-y 0;
   vertical-align: middle;
   -webkit-appearance: none;
+  @extend h2;
 
   &:focus {
     outline: none;
