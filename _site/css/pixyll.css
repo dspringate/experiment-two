@@ -3667,7 +3667,11 @@ footer {
   color: #7a7a7a;
   font-size: 0.75rem;
   font-weight: 300;
-  padding: 2rem; }
+  background-color: #eeeeee;
+  padding: 0; }
+  footer #more-info,
+  footer #footer-bottom-bar {
+    padding: 0 40px; }
 
 .social-icons-left, .social-icons-right {
   text-align: center;
