@@ -3939,3 +3939,5 @@ p.return-link a {
   margin-top: 65px; }
   #submit-a-store #submit-form {
     padding: 50px 0; }
+    #submit-a-store #submit-form button {
+      margin-top: 10px; }
