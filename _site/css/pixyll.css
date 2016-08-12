@@ -134,7 +134,8 @@ svg {
 body {
   font-family: "acumin-pro", "Helvetica", Helvetica Neue, "Arial", sans-serif;
   line-height: 23px;
-  font-size: 100%; }
+  font-size: 100%;
+  -webkit-font-smoothing: antialiased; }
 
 h1,
 h2,
@@ -145,7 +146,8 @@ h6 {
   font-family: "acumin-pro", "Helvetica", Helvetica Neue, "Arial", sans-serif;
   font-weight: 600;
   line-height: 32px;
-  margin-bottom: .5em; }
+  margin-bottom: .5em;
+  -webkit-font-smoothing: antialiased; }
 
 p,
 dl,

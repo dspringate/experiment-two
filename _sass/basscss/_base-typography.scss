@@ -4,6 +4,7 @@ body {
   font-family: $font-family;
   line-height: $line-height;
   font-size: 100%;
+  -webkit-font-smoothing: antialiased;
 }
 
 h1,
@@ -16,6 +17,7 @@ h6 {
   font-weight: $heading-font-weight;
   line-height: $heading-line-height;
   margin-bottom: .5em;
+  -webkit-font-smoothing: antialiased;
 }
 
 p,
