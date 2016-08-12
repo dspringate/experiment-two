@@ -3916,4 +3916,6 @@ a.post-link {
 */
 /*============ #Submit A Store ===========*/
 #submit-a-store {
-  margin-top: 65px; }
+  margin-top: 65px;
+  padding-top: 70px;
+  padding-bottom: 70px; }
