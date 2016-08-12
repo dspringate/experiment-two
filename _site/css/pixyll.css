@@ -3579,7 +3579,10 @@ sup {
     text-align: right; }
 
 .site-header .site-title {
-  font-size: 16px;
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 28px;
+  color: #212121;
   float: right !important; }
 
 .site-nav {
@@ -3855,7 +3858,7 @@ a.post-link {
     font-size: 16px; }
 
   .site-header .site-title {
-    font-size: 16px;
+    font-size: 18px;
     float: left; }
 
   .site-header .site-nav {
