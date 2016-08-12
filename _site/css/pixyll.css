@@ -110,7 +110,8 @@ textarea {
   margin: 0; }
 #mc-embedded-subscribe-form button {
   background-color: transparent;
-  float: right; }
+  float: right;
+  padding: 0.5rem 0; }
 
 body,
 button {
