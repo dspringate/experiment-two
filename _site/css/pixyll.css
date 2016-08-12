@@ -3692,7 +3692,7 @@ footer {
   padding: 0; }
   footer #more-info {
     background-color: #eeeeee; }
-    footer #more-info .grid-item {
+    footer #more-info .grid__item {
       padding: 0 40px; }
   footer #more-info,
   footer #footer-bottom-bar {
