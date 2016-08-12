@@ -3703,6 +3703,8 @@ footer {
     padding: 0 40px; }
   footer .copyright-text {
     border-left: 1px solid #eeeeee; }
+    footer .copyright-text p {
+      margin-bottom: 0; }
 
 .social-icons-left, .social-icons-right {
   text-align: center;
