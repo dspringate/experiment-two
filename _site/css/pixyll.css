@@ -3554,7 +3554,9 @@ sup {
     .site-header .grid .grid__item, .site-header .grid--rev .grid__item, .site-header .grid--full .grid__item {
       display: table-cell;
       vertical-align: middle;
-      float: none; }
+      float: none;
+      padding-top: 20px;
+      padding-bottom: 20px; }
   .site-header .search-btn {
     background-color: transparent;
     padding: 0;
