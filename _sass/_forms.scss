@@ -24,6 +24,10 @@ input[type=week] {
   padding: $form-field-padding-y $form-field-padding-x;
   vertical-align: middle;
   -webkit-appearance: none;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 select {
@@ -52,16 +56,13 @@ textarea {
 .field-light {
   background-color: white;
   transition: box-shadow .2s ease;
-  border-style: solid;
-  border-width: $border-width;
-  border-color: $border-color;
-  border-radius: $border-radius;
+  border-radius: 0 none;
+  border-bottom: 1px solid $border-color;
 }
 
 .field-light:focus {
   outline: none;
-  border-color: $blue;
-  box-shadow: 0 0 2px rgba($blue,.5);
+  box-shadow: 0 none;
 }
 
 .field-light:disabled {

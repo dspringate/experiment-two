@@ -47,7 +47,7 @@ textarea,
 fieldset {
   font-size: 1rem;
   margin-top: 0;
-  margin-bottom: 25px; }
+  margin-bottom: 0.5rem; }
 
 input[type=text],
 input[type=datetime],
@@ -3294,6 +3294,19 @@ input[type=week] {
   padding: 0.5rem 0.5rem;
   vertical-align: middle;
   -webkit-appearance: none; }
+  input[type=text]:focus,
+  input[type=datetime]:focus,
+  input[type=datetime-local]:focus,
+  input[type=email]:focus,
+  input[type=month]:focus,
+  input[type=number]:focus,
+  input[type=password]:focus,
+  input[type=search]:focus,
+  input[type=tel]:focus,
+  input[type=time]:focus,
+  input[type=url]:focus,
+  input[type=week]:focus {
+    outline: none; }
 
 select {
   box-sizing: border-box;
@@ -3317,15 +3330,12 @@ textarea {
 .field-light {
   background-color: white;
   transition: box-shadow .2s ease;
-  border-style: solid;
-  border-width: 1px;
-  border-color: #ccc;
-  border-radius: 3px; }
+  border-radius: 0 none;
+  border-bottom: 1px solid #ccc; }
 
 .field-light:focus {
   outline: none;
-  border-color: #0076df;
-  box-shadow: 0 0 2px rgba(0, 118, 223, 0.5); }
+  box-shadow: 0 none; }
 
 .field-light:disabled {
   color: #777;
