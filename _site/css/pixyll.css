@@ -3592,8 +3592,10 @@ sup {
   margin-top: 65px;
   background-color: #eee;
   padding: 55px 0; }
-  #header-intro p {
-    margin-bottom: 0; }
+  #header-intro .grid__item {
+    padding: 0 40px; }
+    #header-intro .grid__item p {
+      margin-bottom: 0; }
 
 /*
   Table styles copied from Bootstrap
