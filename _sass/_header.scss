@@ -78,9 +78,13 @@
 
   .grid__item {
     padding: 0 40px;
-    
+
     p {
       margin-bottom: 0;
+
+      a {
+        border-bottom: 1px solid #000;
+      }
     }
   }
 }
