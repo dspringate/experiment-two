@@ -3332,7 +3332,9 @@ textarea {
   transition: box-shadow .2s ease;
   border-radius: 0 none;
   border: 0;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #ccc;
+  padding-left: 0;
+  padding-right: 0; }
 
 .field-light:focus {
   outline: none;
