@@ -3291,7 +3291,7 @@ input[type=url],
 input[type=week] {
   box-sizing: border-box;
   height: 2.25rem;
-  padding: 0.5rem 0.5rem;
+  padding: 0.5rem 0;
   vertical-align: middle;
   -webkit-appearance: none; }
   input[type=text]:focus,
@@ -3332,9 +3332,7 @@ textarea {
   transition: box-shadow .2s ease;
   border-radius: 0 none;
   border: 0;
-  border-bottom: 1px solid #ccc;
-  padding-left: 0;
-  padding-right: 0; }
+  border-bottom: 1px solid #ccc; }
 
 .field-light:focus {
   outline: none;
