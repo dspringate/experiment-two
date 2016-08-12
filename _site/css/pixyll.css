@@ -3731,11 +3731,10 @@ blockquote footer {
   font-weight: 600;
   color: #333; }
 
-.post-title {
-  border-bottom: 2px solid #000; }
-  .post-title a {
-    color: #000;
-    text-decoration: none; }
+.post-link {
+  border-bottom: 2px solid #000;
+  color: #000;
+  text-decoration: none; }
 
 .post-footer {
   margin-top: .75rem;
