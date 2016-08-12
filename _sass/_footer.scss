@@ -26,10 +26,6 @@ footer {
 
   #more-info {
     background-color: #eeeeee;
-
-    .grid__item {
-      padding: 0 40px;
-    }
   }
 
   #more-info,
@@ -39,6 +35,10 @@ footer {
       a {
         border-bottom: 1px solid #000;
       }
+    }
+
+    .grid__item {
+      padding: 0 40px;
     }
   }
 
