@@ -3734,7 +3734,7 @@ blockquote footer {
 a.post-link {
   border-bottom: 2px solid #000;
   color: #000;
-  text-decoration: none; }
+  text-decoration: none !important; }
 
 .post-footer {
   margin-top: .75rem;
