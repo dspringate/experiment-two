@@ -3547,13 +3547,14 @@ sup {
   background-color: #fff;
   padding: 0;
   z-index: 999;
-  border-bottom: 1px solid #eeeeee;
-  display: table;
-  width: 100%; }
-  .site-header .grid__item {
-    display: table-cell;
-    vertical-align: middle;
-    float: none; }
+  border-bottom: 1px solid #eeeeee; }
+  .site-header .grid, .site-header .grid--rev, .site-header .grid--full {
+    display: table;
+    width: 100%; }
+    .site-header .grid .grid__item, .site-header .grid--rev .grid__item, .site-header .grid--full .grid__item {
+      display: table-cell;
+      vertical-align: middle;
+      float: none; }
   .site-header .search-btn {
     background-color: transparent;
     padding: 0;
