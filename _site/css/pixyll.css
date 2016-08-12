@@ -3590,7 +3590,10 @@ sup {
 
 #header-intro {
   margin-top: 65px;
-  background-color: #eee; }
+  background-color: #eee;
+  padding: 55px 0; }
+  #header-intro p {
+    margin-bottom: 0; }
 
 /*
   Table styles copied from Bootstrap
