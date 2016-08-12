@@ -55,3 +55,16 @@ textarea {
 .fieldset-reset legend {
   padding: 0;
 }
+
+#mc-embedded-subscribe-form {
+  input[type=email] {
+    border: 0;
+    box-shadow: 0 none;
+    padding: 0;
+    margin: 0;
+  }
+
+  button {
+    background-color: transparent;
+  }
+}

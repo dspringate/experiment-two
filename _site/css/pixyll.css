@@ -90,6 +90,14 @@ textarea {
 .fieldset-reset legend {
   padding: 0; }
 
+#mc-embedded-subscribe-form input[type=email] {
+  border: 0;
+  box-shadow: 0 none;
+  padding: 0;
+  margin: 0; }
+#mc-embedded-subscribe-form button {
+  background-color: transparent; }
+
 body,
 button {
   margin: 0; }
@@ -3678,6 +3686,8 @@ footer {
     footer #footer-bottom-bar .footer-link a,
     footer #footer-bottom-bar .site-nav a {
       border-bottom: 1px solid #000; }
+  footer .copyright-text {
+    border-left: 1px solid #eeeeee; }
 
 .social-icons-left, .social-icons-right {
   text-align: center;
