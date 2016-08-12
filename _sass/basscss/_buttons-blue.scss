@@ -1,7 +1,7 @@
 .button-blue {
   color: white;
-  background-color: $blue;
-  border-radius: $border-radius;
+  background-color: #000;
+  border-radius: 0 none;
   transition-duration: .1s;
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color;

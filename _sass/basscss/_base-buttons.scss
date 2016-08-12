@@ -13,9 +13,9 @@ button,
   padding: $button-padding-y $button-padding-x;
   margin: 0;
   height: auto;
-  border: 1px solid transparent;
   vertical-align: middle;
   -webkit-appearance: none;
+  border: 0;
 }
 
 ::-moz-focus-inner {

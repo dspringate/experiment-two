@@ -29,9 +29,9 @@ button,
   padding: 0.5rem 1rem;
   margin: 0;
   height: auto;
-  border: 1px solid transparent;
   vertical-align: middle;
-  -webkit-appearance: none; }
+  -webkit-appearance: none;
+  border: 0; }
 
 ::-moz-focus-inner {
   border: 0;
@@ -217,8 +217,8 @@ h6,
 
 .button-blue {
   color: white;
-  background-color: #0076df;
-  border-radius: 3px;
+  background-color: #000;
+  border-radius: 0 none;
   transition-duration: .1s;
   transition-timing-function: ease-out;
   transition-property: box-shadow, background-color; }
