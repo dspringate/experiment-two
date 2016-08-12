@@ -42,10 +42,17 @@ footer {
     }
   }
 
-  .newsletter-form,
-  .copyright-text {
-    padding-top: 20px;
-    padding-bottom: 20px;
+
+  #more-info {
+    .grid__item {
+      padding: 70px 40px;
+    }
+  }
+
+  #footer-bottom-bar {
+    .grid__item {
+      padding: 20px 40px;
+    }
   }
 
   .copyright-text {
