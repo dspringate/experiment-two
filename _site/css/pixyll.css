@@ -3916,7 +3916,7 @@ a.post-link {
 
 */
 /*============ #General ===========*/
-.return-link a {
+p.return-link a {
   border-bottom: 1px solid #000; }
 
 /*============ #Submit A Store ===========*/
