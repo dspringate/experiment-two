@@ -3916,7 +3916,8 @@ a.post-link {
 */
 /*============ #Submit A Store ===========*/
 #submit-a-store {
-  margin-top: 65px;
   padding-top: 70px;
   padding-bottom: 70px;
-  max-width: 400px; }
+  max-width: 400px;
+  margin: 0 auto;
+  margin-top: 65px; }
