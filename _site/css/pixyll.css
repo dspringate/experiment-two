@@ -3832,7 +3832,7 @@ a.post-link {
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #333333;
-  padding: 0; }
+  padding: 0 10px; }
 
 .pagination .disabled {
   opacity: 0.5; }
