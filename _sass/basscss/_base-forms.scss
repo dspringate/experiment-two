@@ -26,6 +26,10 @@ input[type=week] {
   padding: $form-field-padding-y $form-field-padding-x;
   vertical-align: middle;
   -webkit-appearance: none;
+
+  &:focus {
+    outline: none;
+  }
 }
 
 select {
@@ -66,5 +70,6 @@ textarea {
 
   button {
     background-color: transparent;
+    float: right;
   }
 }
