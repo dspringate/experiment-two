@@ -4013,6 +4013,8 @@ p.return-link a {
   max-width: 400px;
   margin: 0 auto;
   margin-top: 65px; }
+  #submit-a-store p {
+    padding-top: 10px; }
   #submit-a-store #submit-form {
     padding: 50px 0; }
     #submit-a-store #submit-form input[type=submit] {
