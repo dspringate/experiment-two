@@ -37,8 +37,10 @@ footer {
     .footer-link, 
     .site-nav {
       a {
-        padding-bottom: 3px;
-        border-bottom: 1px solid #000;
+        .underline {
+          padding-bottom: 3px;
+          border-bottom: 1px solid #000;
+        }
       }
     }
 
