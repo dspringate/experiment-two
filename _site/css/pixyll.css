@@ -161,7 +161,7 @@ h6 {
   margin-top: 0;
   margin-bottom: .5em;
   -webkit-font-smoothing: antialiased;
-  color: #b2b1b1; }
+  color: #212121; }
 
 p,
 dl,
@@ -205,8 +205,7 @@ blockquote p {
 
 h1,
 .h1 {
-  font-size: 20px;
-  color: #212121; }
+  font-size: 20px; }
 
 h2, input[type=text],
 input[type=datetime],
@@ -3648,7 +3647,7 @@ sup {
 #header-intro {
   margin-top: 65px;
   background-color: #eee;
-  padding: 54px 0 55px 0; }
+  padding: 54px 0 60px 0; }
   #header-intro .grid__item {
     padding: 0 40px; }
     #header-intro .grid__item p {
