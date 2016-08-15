@@ -28,13 +28,14 @@
   }
 
   .search-btn,
-  span.social-wrap {
+  span.social-wrap  {
     border-left: 1px solid #eeeeee;
     padding: 20px 20px 21px 25px;
-    height: 66px;
+    
 
     a {
       padding-top: 3px;
+      height: 66px;
     }
   }
 }
