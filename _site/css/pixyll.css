@@ -3817,12 +3817,10 @@ footer {
   footer #more-info .grid__item {
     padding: 70px 40px 80px 40px; }
   @media screen and (max-width: 640px) {
-    footer #more-info {
-      padding: 40px 0; }
-      footer #more-info .grid__item {
-        padding: 0 40px; }
-      footer #more-info .right-side {
-        padding-top: 40px; } }
+    footer #more-info .grid__item {
+      padding: 40px; }
+    footer #more-info .right-side {
+      border-top: 1px solid #ccc; } }
   footer #footer-bottom-bar {
     display: table;
     width: 100%; }
