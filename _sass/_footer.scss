@@ -49,8 +49,8 @@ footer {
     }
 
     @media screen and (max-width: 640px;) {
-      .grid__item.one-half {
-        width: 100%;
+      .one-half {
+        width: 100% !important;
       }
     }
   }
