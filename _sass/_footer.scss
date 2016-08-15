@@ -65,8 +65,10 @@ footer {
     }
 
     @media screen and (max-width: 640px) {
+      padding: 40px 0;
+
       .grid__item {
-        padding: 45px 40px 40px 40px;
+        padding: 0 40px;
 
         nav {
           margin-bottom: 1rem;
@@ -74,7 +76,7 @@ footer {
       }
 
       .right-side {
-        border-top: 1px solid $border-color;
+        padding-top: 20px;
       }
     }
   }
