@@ -3833,6 +3833,11 @@ footer {
       vertical-align: middle;
       float: none;
       padding: 11px 40px; }
+    @media screen and (max-width: 640px) {
+      footer #footer-bottom-bar .grid__item {
+        padding: 20px 40px; }
+      footer #footer-bottom-bar .copyright-text {
+        border-top: 1px solid #ccc; } }
   footer .copyright-text {
     border-left: 1px solid #eeeeee; }
     footer .copyright-text p {

@@ -91,6 +91,16 @@ footer {
       float: none;
       padding: 11px 40px;
     }
+
+    @media screen and (max-width: 640px) {
+      .grid__item {
+        padding: 20px 40px;
+      }
+      
+      .copyright-text {
+        border-top: 1px solid $border-color;
+      }
+    }
   }
 
   .copyright-text {
