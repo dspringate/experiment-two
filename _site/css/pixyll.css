@@ -3577,7 +3577,7 @@ sup {
 .site-header {
   position: fixed;
   width: 100%;
-  background-color: #fff;
+  background-color: rgba(255, 255, 255, 0.6);
   padding: 0;
   z-index: 999;
   border-bottom: 1px solid #edecec; }
