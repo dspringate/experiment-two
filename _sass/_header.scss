@@ -29,15 +29,15 @@
     height: 66px;
   }
 
-  .search-btn,
   span.social-wrap  {
     padding: 0;/*20px 20px 21px 25px;*/
-    vertical-align: middle;
+    vertical-align: top;
+    height: 66px;
 
     a {
       border-left: 1px solid #eeeeee;
       padding-top: 0;
-      height: 66px;
+      vertical-align: middle;
     }
   }
 }
