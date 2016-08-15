@@ -3800,7 +3800,8 @@ footer {
   footer .copyright-text {
     border-left: 1px solid #eeeeee; }
     footer .copyright-text p {
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      font-size: 13px; }
 
 .social-icons-left, .social-icons-right {
   text-align: center;
