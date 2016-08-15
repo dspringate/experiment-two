@@ -3646,6 +3646,9 @@ sup {
   line-height: 27px;
   color: #363636;
   float: right !important; }
+  @media screen and (max-width: 769px) {
+    .site-header .site-title {
+      float: left !important; } }
 
 .site-nav {
   margin-top: 1rem; }

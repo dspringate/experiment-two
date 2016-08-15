@@ -66,6 +66,10 @@
   line-height: 27px;
   color: #363636;
   float: right !important;
+
+  @include at-query($max, $medium) {
+    float: left !important;
+  }
 }
 
 .site-nav {
