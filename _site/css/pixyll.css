@@ -133,7 +133,7 @@ svg {
 /* Basscss Base Typography */
 body {
   font-family: "acumin-pro", "Helvetica", Helvetica Neue, "Arial", sans-serif;
-  line-height: 22px;
+  line-height: 23px;
   font-size: 100%;
   -webkit-font-smoothing: antialiased; }
 
@@ -167,7 +167,7 @@ p,
 dl,
 ol,
 ul {
-  font-size: 13px;
+  font-size: 14px;
   margin-top: 0;
   margin-bottom: 1rem;
   color: #a6a5a5; }
@@ -200,12 +200,12 @@ blockquote {
 
 blockquote,
 blockquote p {
-  font-size: 15px;
+  font-size: 16px;
   font-style: italic; }
 
 h1,
 .h1 {
-  font-size: 19px; }
+  font-size: 20px; }
 
 h2, input[type=text],
 input[type=datetime],
@@ -220,28 +220,28 @@ input[type=time],
 input[type=url],
 input[type=week],
 .h2 {
-  font-size: 17px;
-  line-height: 27px; }
+  font-size: 18px;
+  line-height: 28px; }
 
 h3,
 .h3 {
-  font-size: 15px;
-  line-height: 25px; }
+  font-size: 16px;
+  line-height: 26px; }
 
 h4,
 .h4 {
-  font-size: 15px;
-  line-height: 25px; }
+  font-size: 16px;
+  line-height: 26px; }
 
 h5,
 .h5 {
-  font-size: 13px;
-  line-height: 23px; }
+  font-size: 14px;
+  line-height: 24px; }
 
 h6,
 .h6 {
-  font-size: 13px;
-  line-height: 23px; }
+  font-size: 14px;
+  line-height: 24px; }
 
 .list-reset {
   list-style: none;
@@ -3402,7 +3402,7 @@ textarea {
   box-shadow: 0 0 2px rgba(0, 118, 223, 0.5); }
 
 html {
-  font-size: 13px; }
+  font-size: 14px; }
 
 abbr {
   border-bottom: 1px black dotted;
@@ -3601,7 +3601,7 @@ sup {
 
 .site-header a {
   color: #a6a5a5;
-  font-size: 15px;
+  font-size: 16px;
   background-image: none; }
 
 .site-logo {
@@ -3883,7 +3883,7 @@ a.post-link {
 
   h1,
   .h1 {
-    font-size: 19px; }
+    font-size: 20px; }
 
   .site-header {
     text-align: left; }
@@ -3892,7 +3892,7 @@ a.post-link {
     margin-top: 0; }
 
   .site-header a {
-    font-size: 15px; }
+    font-size: 16px; }
 
   .site-header .site-title {
     font-size: 18px;
