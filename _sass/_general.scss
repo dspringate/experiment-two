@@ -32,8 +32,13 @@ p.return-link {
 	#submit-form {
 		padding: 15px 0 40px 0;
 
+		input {
+			margin-bottom: 10px;
+		}
+		
 		input[type=submit] {
 			margin-top: 10px;
+			margin-bottom: 0;
 		}
 
 		::-webkit-input-placeholder { /* Chrome/Opera/Safari */

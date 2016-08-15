@@ -4017,8 +4017,11 @@ p.return-link a {
     padding-top: 10px; }
   #submit-a-store #submit-form {
     padding: 15px 0 40px 0; }
+    #submit-a-store #submit-form input {
+      margin-bottom: 10px; }
     #submit-a-store #submit-form input[type=submit] {
-      margin-top: 10px; }
+      margin-top: 10px;
+      margin-bottom: 0; }
     #submit-a-store #submit-form ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: #a6a5a5; }
