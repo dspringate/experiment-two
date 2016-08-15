@@ -3816,7 +3816,9 @@ footer {
       width: 100% !important; } }
   footer #more-info .grid__item {
     padding: 70px 40px 80px 40px; }
-    @media screen and (max-width: 640px) {
+  @media screen and (max-width: 640px) {
+    footer #more-info {
+      padding: 40px 0; }
       footer #more-info .grid__item {
         padding: 0 40px; } }
   footer #footer-bottom-bar {
