@@ -3766,6 +3766,7 @@ footer {
   footer #more-info .site-nav a,
   footer #footer-bottom-bar .footer-link a,
   footer #footer-bottom-bar .site-nav a {
+    padding-bottom: 3px;
     border-bottom: 1px solid #000; }
   footer #more-info .grid__item,
   footer #footer-bottom-bar .grid__item {
