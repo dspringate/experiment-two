@@ -53,6 +53,9 @@
 
   a {
     text-align: right;
+    @include at-query($max, $medium) {
+      text-align: left;
+    }
   }
 }
 

@@ -3636,6 +3636,9 @@ sup {
   padding: 18px 40px; }
   .site-logo a {
     text-align: right; }
+    @media screen and (max-width: 769px) {
+      .site-logo a {
+        text-align: left; } }
 
 .site-header .site-title {
   font-size: 17px !important;
