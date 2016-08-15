@@ -53,6 +53,7 @@
 
   a {
     text-align: right;
+
     @include at-query($max, $medium) {
       text-align: left;
     }
@@ -122,5 +123,9 @@
         }
       }
     }
+  }
+
+  @include at-query($max, $medium) {
+    margin-top: 64px;
   }
 }
