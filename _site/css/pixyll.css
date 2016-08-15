@@ -3754,9 +3754,9 @@ Copyright (c) 2014 Daniel Eden
   flex: 1 0 auto; }
 
 footer {
-  color: #7a7a7a;
-  font-size: 0.75rem;
-  font-weight: 300;
+  color: #363636;
+  font-size: 14px;
+  font-weight: 400;
   padding: 0; }
   footer #more-info {
     background-color: #edecec; }
