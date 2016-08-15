@@ -3652,9 +3652,10 @@ sup {
     padding: 0 40px;
     max-width: 400px; }
     #header-intro .grid__item p {
-      padding-top: 10px;
+      padding-top: 12px;
       margin-bottom: 0; }
       #header-intro .grid__item p a {
+        padding-bottom: 2px;
         border-bottom: 1px solid #b2b1b1; }
 
 /*
