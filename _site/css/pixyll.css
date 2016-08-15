@@ -4022,7 +4022,8 @@ p.return-link a {
       margin-bottom: 10px; }
     #submit-a-store #submit-form input[type=submit] {
       margin-top: 25px;
-      margin-bottom: 0; }
+      margin-bottom: 0;
+      color: #fff; }
     #submit-a-store #submit-form ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
       color: #a6a5a5; }
