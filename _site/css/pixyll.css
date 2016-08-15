@@ -3609,8 +3609,8 @@ sup {
   .site-logo a {
     text-align: right; }
 
-.site-header .site-title a {
-  font-size: 10px;
+.site-header .site-title {
+  font-size: 10px !important;
   font-weight: 600;
   line-height: 27px;
   color: #363636;

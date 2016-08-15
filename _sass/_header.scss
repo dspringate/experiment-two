@@ -50,13 +50,11 @@
 }
 
 .site-header .site-title {
-  a {
-    font-size: 10px;
-    font-weight: $heading-font-weight;
-    line-height: 27px;
-    color: #363636;
-    float: right !important;
-  }
+  font-size: 10px !important;
+  font-weight: $heading-font-weight;
+  line-height: 27px;
+  color: #363636;
+  float: right !important;
 }
 
 .site-nav {
