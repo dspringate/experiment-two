@@ -3831,6 +3831,8 @@ footer {
       float: none;
       padding: 11px 40px; }
     @media screen and (max-width: 640px) {
+      footer #footer-bottom-bar .grid_item {
+        padding: 15px 40px; }
       footer #footer-bottom-bar .copyright-text {
         padding: 20px 40px;
         border-top: 1px solid #edecec; } }
