@@ -3649,7 +3649,8 @@ sup {
   background-color: #eee;
   padding: 54px 0 60px 0; }
   #header-intro .grid__item {
-    padding: 0 40px; }
+    padding: 0 40px;
+    max-width: 380px; }
     #header-intro .grid__item p {
       margin-bottom: 0; }
       #header-intro .grid__item p a {
