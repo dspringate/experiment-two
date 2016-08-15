@@ -37,8 +37,9 @@ p.return-link {
 		}
 
 		input[type=submit] {
-			margin-top: 20px;
+			margin-top: 25px;
 			margin-bottom: 0;
+			@extend h2;
 		}
 
 		::-webkit-input-placeholder { /* Chrome/Opera/Safari */

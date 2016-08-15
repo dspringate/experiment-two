@@ -152,6 +152,7 @@ input[type=tel],
 input[type=time],
 input[type=url],
 input[type=week],
+#submit-a-store #submit-form input[type=submit],
 h3,
 h4,
 h5,
@@ -219,7 +220,7 @@ input[type=search],
 input[type=tel],
 input[type=time],
 input[type=url],
-input[type=week],
+input[type=week], #submit-a-store #submit-form input[type=submit],
 .h2 {
   font-size: 18px;
   line-height: 28px; }
@@ -4020,7 +4021,7 @@ p.return-link a {
     #submit-a-store #submit-form input {
       margin-bottom: 10px; }
     #submit-a-store #submit-form input[type=submit] {
-      margin-top: 20px;
+      margin-top: 25px;
       margin-bottom: 0; }
     #submit-a-store #submit-form ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
