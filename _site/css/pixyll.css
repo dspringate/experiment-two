@@ -3821,7 +3821,7 @@ blockquote footer {
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee; }
   .posts .post h1.post-title {
-    padding: 20px 0 3px 0; }
+    padding-top: 20px; }
 
 .posts .even:nth-last-child(-n+3) {
   border-bottom: 0; }
@@ -3849,6 +3849,7 @@ blockquote footer {
   margin-top: 0; }
 
 a.post-link {
+  padding-bottom: 10px;
   border-bottom: 3px solid #363636;
   color: #363636;
   text-decoration: none !important; }
