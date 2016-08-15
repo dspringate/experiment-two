@@ -373,11 +373,11 @@ h6,
 
 /* Basscss Color Base */
 body {
-  color: #b2b1b1;
+  color: #a6a5a5;
   background-color: white; }
 
 a {
-  color: #b2b1b1;
+  color: #a6a5a5;
   text-decoration: none; }
 
 a:hover {
@@ -3180,7 +3180,7 @@ body {
     - Pull classes, to move grid items back to the left by certain amounts
 ==============================================================================*/
 a {
-  color: #b2b1b1;
+  color: #a6a5a5;
   /*background-image: linear-gradient(to top,
     rgba(0,0,0,0) 13%,
     rgba($link-color,.8) 13%,
@@ -3193,7 +3193,7 @@ a:hover,
 a:focus,
 a:active {
   border: 0;
-  color: #4c4b4b;
+  color: #403f3f;
   text-decoration: none;
   /*background-image: linear-gradient(to top,
     rgba(0,0,0,0) 13%,
@@ -3223,7 +3223,7 @@ button,
 .anchorjs-link:focus,
 .anchorjs-link:active {
   border: 0;
-  color: #4c4b4b;
+  color: #403f3f;
   text-shadow: none;
   background-image: none; }
 
@@ -3409,7 +3409,7 @@ abbr {
   cursor: help; }
 
 p {
-  color: #b2b1b1;
+  color: #a6a5a5;
   line-height: 23px; }
 
 small,
@@ -3568,7 +3568,7 @@ sup {
   margin: 0;
   vertical-align: middle;
   font-size: 14px;
-  color: #b2b1b1; }
+  color: #a6a5a5; }
   .social-icons .icon a {
     color: #000; }
     .social-icons .icon a:hover {
@@ -3600,7 +3600,7 @@ sup {
     padding: 20px 20px 21px 25px; }
 
 .site-header a {
-  color: #b2b1b1;
+  color: #a6a5a5;
   font-size: 15px;
   background-image: none; }
 
@@ -3867,7 +3867,7 @@ a.post-link {
   width: auto;
   margin: 0;
   padding: 0;
-  color: #b2b1b1;
+  color: #a6a5a5;
   display: block; }
 
 .related-post-title {
@@ -3938,14 +3938,14 @@ a.post-link {
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #b2b1b1;
+  color: #a6a5a5;
   padding: 0 10px; }
 
 .pagination .disabled {
   opacity: 0.5; }
 
 .pagination a:hover, .pagination a:focus {
-  color: #4c4b4b; }
+  color: #403f3f; }
 
 .pagination a:active {
   /*background: #f7f7f7;*/ }

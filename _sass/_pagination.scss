@@ -10,7 +10,7 @@
   -webkit-transition: all 0.2s ease-in-out;
   -moz-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #b2b1b1;
+  color: #a6a5a5;
   padding: 0 10px;
 }
 
@@ -19,7 +19,7 @@
 }
 
 .pagination a:hover, .pagination a:focus {
-  color: darken(#b2b1b1, 40%);
+  color: darken(#a6a5a5, 40%);
 }
 
 .pagination a:active {
