@@ -3823,7 +3823,8 @@ blockquote footer {
   .posts .post h1.post-title {
     padding-top: 20px; }
   .posts .post p {
-    padding-top: 25px; }
+    padding-top: 20px;
+    margin-bottom: 0; }
 
 .posts .even:nth-last-child(-n+3) {
   border-bottom: 0; }
