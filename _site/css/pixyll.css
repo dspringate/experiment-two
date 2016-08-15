@@ -3609,7 +3609,7 @@ sup {
   .site-logo a {
     text-align: right; }
 
-.site-header .site-title {
+.site-header .site-title a {
   font-size: 10px;
   font-weight: 600;
   line-height: 27px;
