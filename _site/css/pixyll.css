@@ -3613,7 +3613,8 @@ sup {
   .site-header .search-btn,
   .site-header span.social-wrap {
     border-left: 1px solid #eeeeee;
-    padding: 20px 20px 21px 25px; }
+    padding: 20px 20px 21px 25px;
+    height: 66px; }
     .site-header .search-btn a,
     .site-header span.social-wrap a {
       padding-top: 3px; }
