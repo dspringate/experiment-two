@@ -3695,8 +3695,9 @@ sup {
     #header-intro {
       margin-top: 64px; } }
   @media screen and (max-width: 480px) {
-    #header-intro {
-      padding: 54px 40px 58px 40px; } }
+    #header-intro .grid__item {
+      padding: 0 40px;
+      max-width: 480px; } }
 
 /*
   Table styles copied from Bootstrap

@@ -133,6 +133,9 @@
     margin-top: 64px;
   }
   @include at-query($max, $small) {
-    padding: 54px 40px 58px 40px;
+    .grid__item {
+      padding: 0 40px;
+      max-width: 480px;
+    }
   }
 }
