@@ -3606,11 +3606,12 @@ sup {
       float: none; }
   .site-header .top-bar--links {
     padding-bottom: 0; }
-  .site-header .search-btn {
+  .site-header button.search-btn {
     background-color: transparent;
     border-left: 1px solid #eeeeee;
     padding: 0;
-    margin: 0; }
+    margin: 0;
+    height: 66px; }
   .site-header .search-btn,
   .site-header span.social-wrap {
     padding: 0;
