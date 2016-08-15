@@ -3808,10 +3808,12 @@ footer {
   footer #footer-bottom-bar .grid__item {
     padding: 0 40px; }
   @media screen and (max-width: 640px) {
+    footer #more-info .grid__item,
+    footer #footer-bottom-bar .grid__item {
+      display: block !important; }
     footer #more-info .one-half,
     footer #footer-bottom-bar .one-half {
-      width: 100% !important;
-      display: block; } }
+      width: 100% !important; } }
   footer #more-info .grid__item {
     padding: 70px 40px 80px 40px; }
     @media screen and (max-width: 640px) {
