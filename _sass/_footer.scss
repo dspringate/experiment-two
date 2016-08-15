@@ -46,8 +46,10 @@ footer {
 
     .grid__item {
       padding: 0 40px;
+    }
 
-      @media screen and (max-width: 640px;) {
+    @media screen and (max-width: 640px;) {
+      .grid__item.one-half {
         width: 100%;
       }
     }
