@@ -3849,8 +3849,8 @@ blockquote footer {
   margin-top: 0; }
 
 a.post-link {
-  border-bottom: 2px solid #000;
-  color: #000;
+  border-bottom: 3px solid #363636;
+  color: #363636;
   text-decoration: none !important; }
 
 .post-footer {
