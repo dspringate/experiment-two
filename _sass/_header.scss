@@ -129,7 +129,7 @@
     }
   }
 
-  @include at-query($max, $medium) {
+  @include at-query($max, $large) {
     margin-top: 64px;
   }
 }
