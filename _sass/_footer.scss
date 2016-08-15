@@ -59,6 +59,10 @@ footer {
   #more-info {
     .grid__item {
       padding: 70px 40px 80px 40px;
+
+      @media screen and (max-width: 640px) {
+        padding: 0;
+      }
     }
   }
 

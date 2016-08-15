@@ -3813,6 +3813,9 @@ footer {
       width: 100% !important; } }
   footer #more-info .grid__item {
     padding: 70px 40px 80px 40px; }
+    @media screen and (max-width: 640px) {
+      footer #more-info .grid__item {
+        padding: 0; } }
   footer #footer-bottom-bar {
     display: table;
     width: 100%; }
