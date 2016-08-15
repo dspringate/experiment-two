@@ -4005,7 +4005,8 @@ a.post-link {
 */
 /*============ #General ===========*/
 p.return-link a {
-  border-bottom: 1px solid #000; }
+  padding-bottom: 3px;
+  border-bottom: 1px solid #b2b1b1; }
 
 /*============ #Submit A Store ===========*/
 #submit-a-store {
