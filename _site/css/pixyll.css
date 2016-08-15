@@ -3567,7 +3567,8 @@ sup {
 .social-icons .icon {
   margin: 0;
   vertical-align: middle;
-  font-size: 14px; }
+  font-size: 14px;
+  color: #b2b1b1; }
   .social-icons .icon a {
     color: #000; }
     .social-icons .icon a:hover {
