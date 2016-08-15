@@ -4016,6 +4016,18 @@ p.return-link a {
   #submit-a-store p {
     padding-top: 10px; }
   #submit-a-store #submit-form {
-    padding: 40px 0; }
+    padding: 15px 0 40px 0; }
     #submit-a-store #submit-form input[type=submit] {
       margin-top: 10px; }
+    #submit-a-store #submit-form ::-webkit-input-placeholder {
+      /* Chrome/Opera/Safari */
+      color: #a6a5a5; }
+    #submit-a-store #submit-form ::-moz-placeholder {
+      /* Firefox 19+ */
+      color: #a6a5a5; }
+    #submit-a-store #submit-form :-ms-input-placeholder {
+      /* IE 10+ */
+      color: #a6a5a5; }
+    #submit-a-store #submit-form :-moz-placeholder {
+      /* Firefox 18- */
+      color: #a6a5a5; }
