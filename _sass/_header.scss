@@ -35,9 +35,13 @@
 }
 
 .site-header a {
-  color: #a6a5a5;
+  color: lighten(#a6a5a5, 10%);
   font-size: $h3;
   background-image: none;
+
+  &:hover {
+    color: #a6a5a5;
+  }
 }
 
 .site-logo {

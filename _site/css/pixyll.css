@@ -3620,9 +3620,11 @@ sup {
     padding: 20px 20px 21px 25px; }
 
 .site-header a {
-  color: #a6a5a5;
+  color: #bfbfbf;
   font-size: 16px;
   background-image: none; }
+  .site-header a:hover {
+    color: #a6a5a5; }
 
 .site-logo {
   padding: 18px 40px; }
