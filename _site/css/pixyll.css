@@ -3694,6 +3694,9 @@ sup {
   @media screen and (max-width: 1025px) {
     #header-intro {
       margin-top: 64px; } }
+  @media screen and (max-width: 480px) {
+    #header-intro {
+      padding: 54px 40px 58px 40px; } }
 
 /*
   Table styles copied from Bootstrap
