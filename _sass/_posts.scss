@@ -35,7 +35,7 @@
 }
 
 .filler {
-  margin-bottom: 54px;
+  margin-bottom: 48px;
 
   @include at-query($max, $preLarge) {
     margin-bottom: 52px;
