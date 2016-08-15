@@ -3849,7 +3849,7 @@ blockquote footer {
   margin-top: 0; }
 
 a.post-link {
-  padding-bottom: 10px;
+  padding-bottom: 3px;
   border-bottom: 3px solid #363636;
   color: #363636;
   text-decoration: none !important; }
