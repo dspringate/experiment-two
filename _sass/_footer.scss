@@ -49,7 +49,9 @@ footer {
     }
 
     @media screen and (max-width: 640px) {
-      .one-half {
+      .one-half,
+      .one-third,
+      .two-thirds {
         width: 100% !important;
       }
     }
