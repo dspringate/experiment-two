@@ -765,10 +765,6 @@ body {
   margin: 0;
   padding: 0;
   margin-left: 0px; }
-  @media screen and (max-width: 480px) {
-    .grid, .grid--rev, .grid--full,
-    .grid-uniform {
-      margin-left: -20px; } }
 
 .grid__item {
   box-sizing: border-box;
@@ -777,9 +773,6 @@ body {
   padding-left: 0px;
   vertical-align: top;
   width: 100%; }
-  @media screen and (max-width: 480px) {
-    .grid__item {
-      padding-left: 20px; } }
 
 /*============================================================================
   Reversed grids allow you to structure your source in the opposite

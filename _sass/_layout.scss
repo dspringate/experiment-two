@@ -192,10 +192,6 @@ $class-type: unquote(".");
   margin: 0;
   padding: 0;
   margin-left: -$gridGutter;
-  
-  @include at-query ($max, $small) {
-    margin-left: -20px;
-  }
 }
 
 #{$class-type}grid__item {
@@ -206,10 +202,6 @@ $class-type: unquote(".");
   vertical-align: top;
   @if $mobile-first == true {
     width: 100%;
-  }
-  
-  @include at-query ($max, $small) {
-    padding-left: 20px;
   }
 }
 
