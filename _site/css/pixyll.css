@@ -3671,6 +3671,7 @@ sup {
 
 #header-intro {
   margin-top: 65px;
+  background-color: white;
   padding: 54px 0 58px 0; }
   #header-intro .grid__item {
     padding: 0 40px;
