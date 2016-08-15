@@ -3809,11 +3809,7 @@ footer {
     padding: 0 40px; }
   @media screen and (max-width: 640px) {
     footer #more-info .one-half,
-    footer #more-info .one-third,
-    footer #more-info .two-thirds,
-    footer #footer-bottom-bar .one-half,
-    footer #footer-bottom-bar .one-third,
-    footer #footer-bottom-bar .two-thirds {
+    footer #footer-bottom-bar .one-half {
       width: 100% !important; } }
   footer #more-info .grid__item {
     padding: 70px 40px 80px 40px; }
