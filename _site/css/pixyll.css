@@ -4034,13 +4034,13 @@ p.return-link a {
       color: #fff; }
     #submit-a-store #submit-form ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
-      color: #a6a5a5; }
+      color: #b2b1b1; }
     #submit-a-store #submit-form ::-moz-placeholder {
       /* Firefox 19+ */
-      color: #a6a5a5; }
+      color: #b2b1b1; }
     #submit-a-store #submit-form :-ms-input-placeholder {
       /* IE 10+ */
-      color: #a6a5a5; }
+      color: #b2b1b1; }
     #submit-a-store #submit-form :-moz-placeholder {
       /* Firefox 18- */
-      color: #a6a5a5; }
+      color: #b2b1b1; }
