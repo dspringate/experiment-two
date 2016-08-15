@@ -104,9 +104,11 @@
       padding-top: 8px;
       margin-bottom: 0;
 
-      a.underline {
-        padding-bottom: 3px;
-        border-bottom: 1px solid #b2b1b1;
+      a {
+        .underline {
+          padding-bottom: 3px;
+          border-bottom: 1px solid #b2b1b1;
+        }
       }
     }
   }

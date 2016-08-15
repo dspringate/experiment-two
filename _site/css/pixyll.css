@@ -3654,7 +3654,7 @@ sup {
     #header-intro .grid__item p {
       padding-top: 8px;
       margin-bottom: 0; }
-      #header-intro .grid__item p a.underline {
+      #header-intro .grid__item p a .underline {
         padding-bottom: 3px;
         border-bottom: 1px solid #b2b1b1; }
 
