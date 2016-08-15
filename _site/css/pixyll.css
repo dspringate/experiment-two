@@ -3579,7 +3579,7 @@ sup {
   background-color: #fff;
   padding: 0;
   z-index: 999;
-  border-bottom: 1px solid #eeeeee; }
+  border-bottom: 1px solid #edecec; }
   .site-header .grid, .site-header .grid--rev, .site-header .grid--full {
     display: table;
     width: 100%; }
@@ -3755,7 +3755,7 @@ footer {
   font-weight: 300;
   padding: 0; }
   footer #more-info {
-    background-color: #eeeeee; }
+    background-color: #edecec; }
   footer #more-info .footer-link a,
   footer #more-info .site-nav a,
   footer #footer-bottom-bar .footer-link a,
