@@ -108,7 +108,7 @@ $socialIconFontStack: 'icons';
   margin: 0;
   vertical-align: middle;
   font-size: 14px;
-  color: #a6a5a5;
+  color: lighten(#a6a5a5, 20%);
 
   a {
     color: #000;
@@ -116,5 +116,9 @@ $socialIconFontStack: 'icons';
     &:hover {
       color: #000;
     }
+  }
+
+  &:hover {
+    color: #a6a5a5;
   }
 }

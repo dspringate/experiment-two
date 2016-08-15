@@ -3586,11 +3586,13 @@ sup {
   margin: 0;
   vertical-align: middle;
   font-size: 14px;
-  color: #a6a5a5; }
+  color: #d9d8d8; }
   .social-icons .icon a {
     color: #000; }
     .social-icons .icon a:hover {
       color: #000; }
+  .social-icons .icon:hover {
+    color: #a6a5a5; }
 
 .site-header {
   position: fixed;
