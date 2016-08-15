@@ -397,7 +397,7 @@ hr {
   border: 0;
   border-bottom-style: solid;
   border-bottom-width: 1px;
-  border-bottom-color: #ccc; }
+  border-bottom-color: #edecec; }
 
 /* Basscss Colors */
 .dark-gray {
@@ -3385,7 +3385,7 @@ textarea {
   transition: box-shadow .2s ease;
   border-radius: 0 none;
   border: 0;
-  border-bottom: 1px solid #ccc; }
+  border-bottom: 1px solid #edecec; }
 
 .field-light:focus {
   outline: none;
@@ -3837,7 +3837,7 @@ footer {
       footer #footer-bottom-bar .grid__item {
         padding: 20px 40px; }
       footer #footer-bottom-bar .copyright-text {
-        border-top: 1px solid #ccc; } }
+        border-top: 1px solid #edecec; } }
   footer .copyright-text {
     border-left: 1px solid #eeeeee; }
     footer .copyright-text p {
