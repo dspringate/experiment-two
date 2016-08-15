@@ -161,7 +161,7 @@ h6 {
   margin-top: 0;
   margin-bottom: .5em;
   -webkit-font-smoothing: antialiased;
-  color: #3c3c3c; }
+  color: #363636; }
 
 p,
 dl,
@@ -3613,7 +3613,7 @@ sup {
   font-size: 18px;
   font-weight: 600;
   line-height: 28px;
-  color: #3c3c3c;
+  color: #363636;
   float: right !important; }
 
 .site-nav {
