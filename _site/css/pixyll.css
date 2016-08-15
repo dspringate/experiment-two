@@ -3652,9 +3652,10 @@ sup {
     padding: 0 40px;
     max-width: 400px; }
     #header-intro .grid__item p {
+      padding-top: 10px;
       margin-bottom: 0; }
       #header-intro .grid__item p a {
-        border-bottom: 1px solid #000; }
+        border-bottom: 1px solid #b2b1b1; }
 
 /*
   Table styles copied from Bootstrap
