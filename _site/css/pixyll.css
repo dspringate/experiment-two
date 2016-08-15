@@ -3579,7 +3579,8 @@ sup {
   width: 100%;
   background-color: #fff;
   padding: 0;
-  z-index: 999; }
+  z-index: 999;
+  border-bottom: 1px solid #edecec; }
   .site-header .grid, .site-header .grid--rev, .site-header .grid--full {
     display: table;
     width: 100%; }
