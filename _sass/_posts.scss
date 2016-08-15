@@ -9,6 +9,10 @@
   padding: 40px;
   border-bottom: 1px solid #eeeeee;
   border-right: 1px solid #eeeeee;
+
+  h1.post-title {
+    padding: 20px 0 3px 0;
+  }
 }
 
 .posts {
@@ -52,7 +56,6 @@
 }
 
 a.post-link {
-  padding: 20px 0 3px 0;
   border-bottom: 3px solid #363636;
   color: #363636;
   text-decoration: none !important;
