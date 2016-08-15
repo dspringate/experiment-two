@@ -3620,7 +3620,7 @@ sup {
     padding: 20px 20px 21px 25px; }
     .site-header .search-btn a,
     .site-header span.social-wrap a {
-      top: 10px; }
+      padding-top: 3px; }
 
 .site-header a {
   color: #bfbfbf;
