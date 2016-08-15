@@ -65,6 +65,9 @@ a.post-link {
   border-bottom: 3px solid #363636;
   color: #363636;
   text-decoration: none !important;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .post-footer {
