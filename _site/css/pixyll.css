@@ -4020,7 +4020,7 @@ p.return-link a {
     #submit-a-store #submit-form input {
       margin-bottom: 10px; }
     #submit-a-store #submit-form input[type=submit] {
-      margin-top: 30px;
+      margin-top: 20px;
       margin-bottom: 0; }
     #submit-a-store #submit-form ::-webkit-input-placeholder {
       /* Chrome/Opera/Safari */
