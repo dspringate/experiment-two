@@ -3581,7 +3581,7 @@ sup {
 .social-icons .icon {
   margin: 0;
   vertical-align: middle;
-  font-size: 14px;
+  font-size: 17px;
   color: #bfbfbf; }
   .social-icons .icon a {
     color: #000; }
@@ -3620,7 +3620,7 @@ sup {
     display: inline-block;
     height: 66px; }
     .site-header span.social-wrap a {
-      padding-top: 27px;
+      padding-top: 26px;
       vertical-align: middle; }
     .site-header span.social-wrap .fa-shopify {
       width: 20px;
@@ -3630,7 +3630,7 @@ sup {
 
 .site-header a {
   color: #bfbfbf;
-  font-size: 16px;
+  font-size: 19px;
   background-image: none; }
   .site-header a:hover {
     color: #a6a5a5; }
