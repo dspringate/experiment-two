@@ -1,13 +1,11 @@
 <div class="social-icons">
   <div class="social-icons-right">
-    <div id="sb-search" class="sb-search">
-      <form action="{{ site.baseurl }}/search.html" method="get">
-        <input class="sb-search-input" placeholder="Enter your search term..." type="text" value="" name="query" id="search-box">
-        <button class="search-btn">
-          <span class="icon icon-search" aria-hidden="true"></span>
-        </button>
-      </form>
-    </div>
+    <form action="{{ site.baseurl }}/search.html" method="get">
+      <input type="text" id="search-box" name="query">
+    </form>
+    <button class="search-btn">
+      <span class="icon icon-search" aria-hidden="true"></span>
+    </button>
     {% if site.github_username %}
       <a class="fa fa-github" href="https://github.com/{{ site.github_username }}"></a>
     {% endif %}
