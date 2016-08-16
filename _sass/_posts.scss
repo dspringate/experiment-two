@@ -2,7 +2,7 @@
 .posts {
   margin: 0;
   border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee;
+  /*border-bottom: 1px solid #eeeeee;*/
 }
 
 .posts .post {
@@ -20,7 +20,7 @@
   }
 }
 
-.posts {
+/*.posts {
   .even  {
     &:nth-last-child(-n+3) {
       border-bottom: 0;
@@ -32,7 +32,7 @@
       border-bottom: 0;
     }
   }
-}
+}*/
 
 .filler {
   margin-bottom: 48px;

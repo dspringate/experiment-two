@@ -3889,7 +3889,7 @@ blockquote footer {
 .posts {
   margin: 0;
   border-top: 1px solid #eeeeee;
-  border-bottom: 1px solid #eeeeee; }
+  /*border-bottom: 1px solid #eeeeee;*/ }
 
 .posts .post {
   padding: 40px;
@@ -3901,11 +3901,19 @@ blockquote footer {
     padding-top: 20px;
     margin-bottom: 0; }
 
-.posts .even:nth-last-child(-n+3) {
-  border-bottom: 0; }
-.posts .odd:last-child {
-  border-bottom: 0; }
+/*.posts {
+  .even  {
+    &:nth-last-child(-n+3) {
+      border-bottom: 0;
+    }
+  }
 
+  .odd {
+    &:last-child {
+      border-bottom: 0;
+    }
+  }
+}*/
 .filler {
   margin-bottom: 48px; }
   @media screen and (max-width: 640px) {
