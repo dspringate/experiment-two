@@ -3618,7 +3618,8 @@ input.searchbox-input {
   height: 66px;
   margin: 0 !important;
   padding: 0px 55px 0px 20px;
-  font-size: 18px;
+  font-weight: 400;
+  font-size: 14px;
   color: #b2b1b1; }
 
 .searchbox-input::-webkit-input-placeholder {
