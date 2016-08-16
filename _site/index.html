@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for shopify.gallery" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?201608161250" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?201608161251" type="text/css">
 
     <!-- Fonts -->
     <script src="https://use.typekit.net/oae5zqz.js"></script>
@@ -100,12 +100,16 @@
       <div class="grid__item mediumSmall-down--one-half medium--one-half two-thirds top-bar--links">
         <div class="social-icons">
   <div class="social-icons-right">
-    <form action="/search.html" method="get">
-      <input type="text" id="search-box" name="query">
-    </form>
-    <button class="search-btn">
-      <span class="icon icon-search" aria-hidden="true"></span>
-    </button>
+
+    <div class="container">
+      <form class="searchbox" action="/search.html" method="get">
+          <input type="search" placeholder="Search......" id="search-box" name="query" class="searchbox-input" onkeyup="buttonUp();" required>
+          <input type="submit" class="searchbox-submit" value="GO">
+          <button class="search-btn searchbox-icon">
+            <span class="icon icon-search" aria-hidden="true"></span>
+          </button>
+      </form>
+    </div>
     
     
     
@@ -146,15 +150,6 @@
     <p><a class="scroll" href="#more-info"><span class="underline">Learn more</span>&nbsp; &#8594;</a></p>
   </div>
 </div>
-
-<div class="container">
-    <form class="searchbox">
-        <input type="search" placeholder="Search......" name="search" class="searchbox-input" onkeyup="buttonUp();" required>
-        <input type="submit" class="searchbox-submit" value="GO">
-        <span class="searchbox-icon">GO</span>
-    </form>
-</div>
-
 
 
 
