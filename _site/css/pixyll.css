@@ -3612,7 +3612,7 @@ sup {
     padding: 0 20px 0 25px;
     margin: 0;
     height: 66px; }
-  .site-header form {
+  .site-header #sb-search {
     display: inline-block; }
   .site-header span.social-wrap {
     padding: 0 20px 0 25px;
