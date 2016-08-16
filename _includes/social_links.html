@@ -3,6 +3,9 @@
     <button class="search-btn">
       <span class="icon icon-search" aria-hidden="true"></span>
     </button>
+    <form action="{{ site.baseurl }}/search.html" method="get">
+      <input type="text" id="search-box" name="query">
+    </form>
     {% if site.github_username %}
       <a class="fa fa-github" href="https://github.com/{{ site.github_username }}"></a>
     {% endif %}
