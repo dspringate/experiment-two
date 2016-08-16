@@ -3617,6 +3617,9 @@ sup {
     /*20px 20px 21px 25px;*/
     vertical-align: top;
     height: 66px; }
+    .site-header span.social-wrap .fa-shopify {
+      width: 20px;
+      height: auto; }
     .site-header span.social-wrap a {
       border-left: 1px solid #eeeeee;
       padding-top: 0;
