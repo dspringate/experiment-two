@@ -3641,7 +3641,6 @@ sup {
   display: block;
   position: absolute;
   top: 0;
-  font-size: 22px;
   right: 0;
   padding: 0;
   margin: 0;
@@ -3650,7 +3649,8 @@ sup {
   line-height: 50px;
   text-align: center;
   cursor: pointer;
-  color: #bfbfbf; }
+  color: #bfbfbf;
+  background: transparent; }
 
 .searchbox-open {
   width: 100%; }
