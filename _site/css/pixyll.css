@@ -4053,6 +4053,7 @@ a.post-link {
 
 #General
 #Submit A Store
+#404
 
 */
 /*============ #General ===========*/
@@ -4089,3 +4090,9 @@ p.return-link a {
     #submit-a-store #submit-form :-moz-placeholder {
       /* Firefox 18- */
       color: #b2b1b1; }
+
+/*============ #404 ===========*/
+.four-o-four {
+  margin-top: 65px;
+  padding-top: 70px;
+  padding-bottom: 70px; }
