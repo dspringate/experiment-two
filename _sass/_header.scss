@@ -1,6 +1,4 @@
 .container{
-  /*width:600px;
-  margin:50px auto;*/
   display: inline-block;
   float: left;
 }
@@ -31,7 +29,7 @@ input.searchbox-input{
   height:66px;
   margin:0 !important;
   padding:0px 55px 0px 20px;
-  font-size:20px;
+  font-size: 18px;
   color:#a6a5a5;
 }
 .searchbox-input::-webkit-input-placeholder {
