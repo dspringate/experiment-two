@@ -3590,10 +3590,6 @@ sup {
   .social-icons .icon:hover {
     color: #a6a5a5; }
 
-.container {
-  width: 600px;
-  margin: 50px auto; }
-
 .searchbox {
   position: relative;
   min-width: 50px;
