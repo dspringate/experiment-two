@@ -157,6 +157,10 @@
 .container{
   display: inline-block;
   float: left;
+
+  @include at-query($max, $small) {
+    display: none;
+  }
 }
 
 .searchbox{
