@@ -3609,7 +3609,7 @@ sup {
   .site-header button.search-btn {
     background-color: transparent;
     border-left: 1px solid #edecec;
-    padding: 0;
+    padding: 0 20px;
     margin: 0;
     height: 66px; }
   .site-header span.social-wrap {
