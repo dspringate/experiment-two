@@ -3619,19 +3619,19 @@ input.searchbox-input {
   margin: 0 !important;
   padding: 0px 55px 0px 20px;
   font-size: 18px;
-  color: #a6a5a5; }
+  color: #b2b1b1; }
 
 .searchbox-input::-webkit-input-placeholder {
-  color: #a6a5a5; }
+  color: #b2b1b1; }
 
 .searchbox-input:-moz-placeholder {
-  color: #a6a5a5; }
+  color: #b2b1b1; }
 
 .searchbox-input::-moz-placeholder {
-  color: #a6a5a5; }
+  color: #b2b1b1; }
 
 .searchbox-input:-ms-input-placeholder {
-  color: #a6a5a5; }
+  color: #b2b1b1; }
 
 .searchbox-icon,
 .searchbox-submit {
