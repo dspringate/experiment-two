@@ -3603,6 +3603,7 @@ sup {
   height: 66px;
   float: right;
   overflow: hidden;
+  border-left: 1px solid #edecec;
   -webkit-transition: width 0.3s;
   -moz-transition: width 0.3s;
   -ms-transition: width 0.3s;
