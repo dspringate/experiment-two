@@ -3650,7 +3650,7 @@ sup {
   text-align: center;
   cursor: pointer;
   color: #bfbfbf;
-  background: transparent; }
+  background: #fff; }
 
 .searchbox-open {
   width: 100%; }
