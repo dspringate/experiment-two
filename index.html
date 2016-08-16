@@ -7,6 +7,11 @@ layout: default
     <h2>An ever-growing collection of inspiring stores built on Shopify.</h2>
     <p><a class="scroll" href="#more-info"><span class="underline">Learn more</span>&nbsp; &#8594;</a></p>
   </div>
+  <form action="/search.html" method="get">
+    <label for="search_box">Search</label>
+    <input type="text" id="search_box" name="query">
+    <input type="submit" value="search">
+  </form>
 </div>
 
 {% assign posts_count = (paginator.posts | size) %}
