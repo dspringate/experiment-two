@@ -3613,7 +3613,7 @@ sup {
     margin: 0;
     height: 66px; }
   .site-header span.social-wrap {
-    padding: 0;
+    padding: 0 20px;
     /*20px 20px 21px 25px;*/
     vertical-align: top;
     border-left: 1px solid #edecec;
@@ -3625,7 +3625,7 @@ sup {
     .site-header span.social-wrap .fa-shopify {
       width: 20px;
       height: auto;
-      padding-top: 20px; }
+      padding-top: 23px; }
 
 .site-header a {
   color: #bfbfbf;
