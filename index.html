@@ -9,6 +9,14 @@ layout: default
   </div>
 </div>
 
+<form class="searchbox" action="{{ site.baseurl }}/search.html" method="get">
+          <input type="search" placeholder="Search......" id="search-box" name="query" class="searchbox-input" onkeyup="buttonUp();" required>
+          <input type="submit" class="searchbox-submit" value="GO">
+          <button class="search-btn searchbox-icon">
+            <span class="icon icon-search" aria-hidden="true"></span>
+          </button>
+      </form>
+
 {% assign posts_count = (paginator.posts | size) %}
 
 <div class="home">
