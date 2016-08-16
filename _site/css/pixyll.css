@@ -3619,12 +3619,13 @@ sup {
     border-left: 1px solid #edecec;
     display: inline-block;
     height: 66px; }
+    .site-header span.social-wrap a {
+      padding-top: 27px;
+      vertical-align: middle; }
     .site-header span.social-wrap .fa-shopify {
       width: 20px;
-      height: auto; }
-    .site-header span.social-wrap a {
-      padding-top: 0;
-      vertical-align: middle; }
+      height: auto;
+      padding-top: 20px; }
 
 .site-header a {
   color: #bfbfbf;

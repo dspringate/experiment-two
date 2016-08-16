@@ -36,14 +36,15 @@
     display: inline-block;
     height: 66px;
 
+    a {
+      padding-top: 27px;
+      vertical-align: middle;
+    }
+
     .fa-shopify {
       width: 20px;
       height: auto;
-    }
-
-    a {
-      padding-top: 0;
-      vertical-align: middle;
+      padding-top: 20px;
     }
   }
 }
