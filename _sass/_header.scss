@@ -21,6 +21,21 @@
     padding-bottom: 0;
   }
 
+  .sb-search {
+    position: relative;
+    width: 0%;
+    min-width: 60px;
+    height: 60px;
+    float: right;
+    overflow: hidden;
+
+    -webkit-transition: width 0.3s;
+    -moz-transition: width 0.3s;
+    transition: width 0.3s;
+
+    -webkit-backface-visibility: hidden;
+  }
+
   button.search-btn {
     background-color: transparent;
     border-left: 1px solid $border-color;
