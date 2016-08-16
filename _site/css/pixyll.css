@@ -3598,7 +3598,7 @@ sup {
 
 .searchbox {
   position: relative;
-  min-width: 50px;
+  min-width: 66px;
   width: 0%;
   height: 66px;
   float: right;
@@ -3637,7 +3637,7 @@ input.searchbox-input {
 
 .searchbox-icon,
 .searchbox-submit {
-  width: 50px;
+  width: 66px;
   height: 66px;
   display: block;
   position: absolute;
@@ -3647,7 +3647,7 @@ input.searchbox-input {
   margin: 0;
   border: 0;
   outline: 0;
-  line-height: 50px;
+  line-height: 69px;
   text-align: center;
   cursor: pointer;
   color: #bfbfbf;
