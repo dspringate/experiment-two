@@ -40,18 +40,14 @@
     var idx = lunr(function () {
       this.field('id');
       this.field('title', { boost: 10 });
-      this.field('author');
-      this.field('category');
-      this.field('content');
+      this.field('credit');
     });
 
     for (var key in window.store) { // Add the data to lunr
       idx.add({
         'id': key,
         'title': window.store[key].title,
-        'author': window.store[key].author,
-        'category': window.store[key].category,
-        'content': window.store[key].content
+        'credit': window.store[key].credit
       });
 
       var results = idx.search(searchTerm); // Get lunr to perform a search
