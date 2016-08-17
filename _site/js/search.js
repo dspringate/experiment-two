@@ -1,6 +1,5 @@
 (function() {
   function displaySearchResults(results, store) {
-    var headerSearch = document.getElementById('search-header');
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
