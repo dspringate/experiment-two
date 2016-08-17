@@ -40,18 +40,3 @@ layout: default
     <h1 class='center'>{{ site.text.index.coming_soon }}</h3>
   {% endif %}
 </div>
-
-<script>
-  var posts = [
-    {% for post in site.posts %}
-      {
-        title: unescape('{{ post.title | strip_html | cgi_escape }}').gsub(/\+/, ' '),
-        summary: unescape('{{ post.summary | strip_html | cgi_escape }}').gsub(/\+/, ' '),
-        content: unescape('{{ post.content | strip_html | cgi_escape }}').gsub(/\+/, ' '),
-        url: unescape('{{ post.url | strip_html | cgi_escape }}').gsub(/\+/, ' '),
-      },
-    {% endfor%}
-  0];
-
-  posts.pop();
-</script>
