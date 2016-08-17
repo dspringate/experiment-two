@@ -9,7 +9,7 @@
         var item = store[results[i].ref];
         appendString += '<div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post"><a href="' + item.storeLink + '"><img src="' + item.image + '"></a>';
         appendString += '<h1 class="post-title"><a href="' + item.storeLink + '" target="_blank" class="post-link">' + item.title + '</a><span class="post-meta">' + item.date + '</span></h1>';
-        appendString += '<p>' + item.credit + '</p></div>';
+        appendString += '<p>Credit: <a href="' + item.creditLink + '" target="_blank">' + item.credit + '</a></p></div>';
       }
 
       searchResults.innerHTML = appendString;
@@ -44,6 +44,7 @@
       this.field('storeLink');
       this.field('title', { boost: 10 });
       this.field('date');
+      this.field('creditLink');
       this.field('credit');
     });
 
@@ -54,6 +55,7 @@
         'storeLink': window.store[key].storeLink,
         'title': window.store[key].title,
         'date': window.store[key].date,
+        'creditLink': window.store[key].creditLink,
         'credit': window.store[key].credit
       });
 
