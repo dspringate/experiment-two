@@ -7,7 +7,8 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.storeLink + '"><h3>' + item.title + '</h3></a>';
+        appendString += '<li><a href="' + item.storeLink + '"><img src="' + item.image + '"></a>';
+        appendString += '<a href="' + item.storeLink + '"><h3>' + item.title + '</h3></a>';
         appendString += '<p>' + item.credit + '</p></li>';
       }
 
@@ -39,6 +40,8 @@
     // a boost of 10 to indicate matches on this field are more important.
     var idx = lunr(function () {
       this.field('id');
+      this.field('image');
+      this.field('storeLink');
       this.field('title', { boost: 10 });
       this.field('credit');
     });
@@ -46,6 +49,8 @@
     for (var key in window.store) { // Add the data to lunr
       idx.add({
         'id': key,
+        'image': window.store[key].image,
+        'storeLink': window.store[key].storeLink,
         'title': window.store[key].title,
         'credit': window.store[key].credit
       });
