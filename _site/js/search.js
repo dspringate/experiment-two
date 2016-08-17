@@ -20,7 +20,9 @@
       searchResults.innerHTML = appendString;
       headerSearch.innerHTML = '<div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third"><h2>Your results are...</h2></div>';
     } else {
-      searchResults.innerHTML = '<div id="header-intro" class="grid"><div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third"><h2>No results found.</h2></div></div>';
+      headerSearch.innerHTML = '<div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third"><h2>No results found.</h2></div>';
+      searchResults.innerHTML = '<div class="filler"></div>';
+
     }
   }
 
