@@ -9,7 +9,7 @@
         var item = store[results[i].ref];
         appendString += '<div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post"><a href="' + item.storeLink + '"><img src="' + item.image + '"></a>';
         appendString += '<a href="' + item.storeLink + '"><h3>' + item.title + '</h3></a>';
-        appendString += '<p>' + item.credit + '</p></li>';
+        appendString += '<p>' + item.credit + '</p></div>';
       }
 
       searchResults.innerHTML = appendString;
