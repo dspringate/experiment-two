@@ -7,7 +7,7 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<li><a href="' + item.storeLink + '"><img src="' + item.image + '"></a>';
+        appendString += '<div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post"><a href="' + item.storeLink + '"><img src="' + item.image + '"></a>';
         appendString += '<a href="' + item.storeLink + '"><h3>' + item.title + '</h3></a>';
         appendString += '<p>' + item.credit + '</p></li>';
       }
