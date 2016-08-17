@@ -7,9 +7,6 @@
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
         var item = store[results[i].ref];
-        appendString += '<div id="header-intro" class="grid"><div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third">';
-        appendString += '<h2>Your search results for ...</h2>';
-        appendString += '</div></div>';
         appendString += '<div class="grid__item small--one-whole mediumSmall--one-half medium--one-half large--one-third post"><a href="' + item.storeLink + '"><img src="' + item.image + '"></a>';
         appendString += '<h1 class="post-title"><a href="' + item.storeLink + '" target="_blank" class="post-link">' + item.title + '</a><span class="post-meta">' + item.date + '</span></h1>';
         appendString += '<p>Credit: <a href="' + item.creditLink + '" target="_blank">' + item.credit + '</a></p></div>';
