@@ -2,14 +2,15 @@
 permalink: "/search/"
 layout: page
 ---
+<div id="submit-a-store">
+	<form action="{{ site.baseurl }}/search/" method="get">
+	  <input type="text" placeholder="Search" id="search-box" name="query" required>
+	  <input type="submit">
+	  <span class="icon icon-search" aria-hidden="true"></span>
+	</form>
 
-<form action="{{ site.baseurl }}/search/" method="get" class="searchbox">
-  <input type="text" placeholder="Search" id="search-box" name="query" required>
-  <input type="submit">
-  <span class="icon icon-search" aria-hidden="true"></span>
-</form>
-
-<ul id="search-results"></ul>
+	<ul id="search-results"></ul>
+</div>
 
 <script>
 	window.store = {

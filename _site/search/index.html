@@ -16,7 +16,7 @@
     <link rel="alternate" type="application/rss+xml" title="RSS Feed for shopify.gallery" href="/feed.xml" />
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="/css/pixyll.css?201608170844" type="text/css">
+    <link rel="stylesheet" href="/css/pixyll.css?201608170846" type="text/css">
 
     <!-- Fonts -->
     <script src="https://use.typekit.net/oae5zqz.js"></script>
@@ -146,13 +146,15 @@
     <h1 class="h2"></h1>
   </header>
   <article class="post-content">
-  <form action="/search/" method="get" class="searchbox">
-  <input type="text" placeholder="Search" id="search-box" name="query" required>
-  <input type="submit">
-  <span class="icon icon-search" aria-hidden="true"></span>
-</form>
+  <div id="submit-a-store">
+	<form action="/search/" method="get">
+	  <input type="text" placeholder="Search" id="search-box" name="query" required>
+	  <input type="submit">
+	  <span class="icon icon-search" aria-hidden="true"></span>
+	</form>
 
-<ul id="search-results"></ul>
+	<ul id="search-results"></ul>
+</div>
 
 <script>
 	window.store = {
