@@ -3,8 +3,8 @@
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
-      searchResults.append('<div id="header-intro" class="grid">
-  <div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third">
+      searchResults.append('<div id=\"header-intro\" class=\"grid\">
+  <div class=\"grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third\">
     <h2>Your search results for ...</h2>
   </div>
 </div>');
