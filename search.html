@@ -15,7 +15,7 @@ layout: page
 
 <script>
 	window.store = {
-		{% for post in paginator.posts %}
+		{% for post in site.posts %}
 			"{{ post.url | slugify }}": {
 				"title": "{{ post.title | xml_escape }}",
 				"credit": "{{ post.credit | xml_escape }}",
