@@ -2,6 +2,7 @@
   function displaySearchResults(results, store) {
     var headerSearch = document.getElementById('search-header');
     var searchResults = document.getElementById('search-results');
+    var searchTerm = getQueryVariable('query');
 
     if (results.length) { // Are there any results?
       var appendString = '';
@@ -18,7 +19,7 @@
       }
 
       searchResults.innerHTML = appendString;
-      headerSearch.innerHTML = '<div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third"><h2>Your results are...</h2></div>';
+      headerSearch.innerHTML = '<div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third"><h2>Your results are' + searchTerm + '</h2></div>';
     } else {
       headerSearch.innerHTML = '<div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third"><h2>No results found.</h2></div>';
       searchResults.innerHTML = '<div class="filler"></div>';
