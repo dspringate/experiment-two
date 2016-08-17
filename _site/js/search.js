@@ -3,7 +3,6 @@
     var searchResults = document.getElementById('search-results');
 
     if (results.length) { // Are there any results?
-      searchResults.append('<div id=\"header-intro\" class=\"grid\">hello</div>');
       var appendString = '';
 
       for (var i = 0; i < results.length; i++) {  // Iterate over the results
