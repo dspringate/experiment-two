@@ -3681,24 +3681,30 @@ sup {
 .site-header .site-nav {
   text-align: center; }
 
-#header-intro {
+#header-intro,
+#search-header {
   margin-top: 65px;
   background-color: #edecec;
   padding: 54px 0 58px 0; }
-  #header-intro .grid__item {
+  #header-intro .grid__item,
+  #search-header .grid__item {
     padding: 0 40px;
     max-width: 400px; }
-    #header-intro .grid__item p {
+    #header-intro .grid__item p,
+    #search-header .grid__item p {
       padding-top: 8px;
       margin-bottom: 0; }
-      #header-intro .grid__item p a .underline {
+      #header-intro .grid__item p a .underline,
+      #search-header .grid__item p a .underline {
         padding-bottom: 3px;
         border-bottom: 1px solid #b2b1b1; }
   @media screen and (max-width: 1025px) {
-    #header-intro {
+    #header-intro,
+    #search-header {
       margin-top: 64px; } }
   @media screen and (max-width: 480px) {
-    #header-intro .grid__item {
+    #header-intro .grid__item,
+    #search-header .grid__item {
       padding: 0 40px;
       max-width: 480px; } }
 
