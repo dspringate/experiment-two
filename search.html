@@ -4,12 +4,6 @@ layout: page
 ---
 
 <div id="submit-a-store">
-	<form action="{{ site.baseurl }}/search/" method="get">
-	  <input type="text" placeholder="Search" id="search-box" name="query" required>
-	  <input type="submit">
-	  <span class="icon icon-search" aria-hidden="true"></span>
-	</form>
-
 	<ul id="search-results"></ul>
 </div>
 
@@ -17,6 +11,8 @@ layout: page
 	window.store = {
 		{% for post in site.posts %}
 			"{{ post.url | slugify }}": {
+				"image": "{{ post.image | xml_escape }}",
+				"storeLink": "{{ post.store-link | xml_escape }}",
 				"title": "{{ post.title | xml_escape }}",
 				"credit": "{{ post.credit | xml_escape }}",
 				"url": "{{ post.url | xml_escape }}"
