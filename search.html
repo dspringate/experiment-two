@@ -18,7 +18,7 @@ layout: page
 				"image": "{{ post.image | xml_escape }}",
 				"storeLink": "{{ post.store-link | xml_escape }}",
 				"title": "{{ post.title | xml_escape }}",
-				"date": "{{ post.date | xml_escape }}",
+				"date": "{{ post.date | date: site.date_format | xml_escape }}",
 				"credit": "{{ post.credit | xml_escape }}",
 				"url": "{{ post.url | xml_escape }}"
 			}
