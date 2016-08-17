@@ -18,7 +18,11 @@
 
       searchResults.innerHTML = appendString;
     } else {
-      searchResults.innerHTML = '<li>No results found</li>';
+      searchResults.innerHTML = '<div id="header-intro" class="grid">
+  <div class="grid__item one-whole medium--one-half push--medium--one-half large--one-third push--large--one-third">
+    <h2>No results found.</h2>
+  </div>
+</div>';
     }
   }
 
