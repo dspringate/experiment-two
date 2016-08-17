@@ -43,6 +43,7 @@
       this.field('image');
       this.field('storeLink');
       this.field('title', { boost: 10 });
+      this.field('date');
       this.field('credit');
     });
 
@@ -52,6 +53,7 @@
         'image': window.store[key].image,
         'storeLink': window.store[key].storeLink,
         'title': window.store[key].title,
+        'date': window.store[key].date,
         'credit': window.store[key].credit
       });
 
